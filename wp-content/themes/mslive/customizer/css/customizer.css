@@ -1,0 +1,571 @@
+.customize-control {
+	margin-bottom: 21px
+}
+
+.customize-control-radio {
+	padding: 0
+}
+
+.customize-control-radio label {
+	line-height: 25px
+}
+
+.customize-control input[type=text],
+.customize-control select {
+	width: 100%
+}
+
+.customize-control.customize-control-textarea textarea {
+	height: 100px
+}
+
+.customize-control-image .dropdown {
+	width: 100%
+}
+
+.customize-control-image .dropdown-content {
+	float: none
+}
+
+.customize-control-image .dropdown-status {
+	max-width: none
+}
+
+.customize-control-image .dropdown-arrow:after {
+	position: absolute;
+	top: 50%;
+	margin-top: -12px
+}
+
+.accordion-section .customize-control-image .preview-thumbnail img {
+	width: auto;
+	max-width: 100%;
+	max-height: none
+}
+
+.wp-color-result {
+	top: 0
+}
+
+.wp-color-result:active,
+.wp-color-result:focus {
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+.customize-control-sub-title {
+	margin: 15px 0 10px
+}
+
+.customize-sub-title {
+	display: block;
+	margin: 20px -20px 10px;
+	border: 1px dashed #ddd;
+	border-left: 0;
+	border-right: 0;
+	padding: 9px 20px 9px 15px;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	line-height: 1;
+	color: #444;
+	background: #f5f5f5
+}
+
+.customize-description {
+	margin: 0;
+	font-size: 11px;
+	line-height: 1.4;
+	color: #888;
+	font-style: normal
+}
+
+.customize-description span {
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2a93c2
+}
+
+.customize-description a {
+	font-weight: 700
+}
+
+span.customize-control-title {
+	font-size: 13px
+}
+
+#customize-theme-controls ul li.customize-control {
+	margin-bottom: 15px
+}
+
+.accordion-section .customize-control-image .dropdown-status {
+	font-size: 11px
+}
+
+#customize-theme-controls ul li select {
+	font-size: 12px
+}
+
+#customize-theme-controls ul li h3:before,
+#customize-theme-controls ul li h4:before {
+	font: 400 18px/1 dashicons;
+	speak: none;
+	left: 0;
+	float: left;
+	display: inline-block;
+	padding: 2px 10px 0 0;
+	text-indent: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none!important
+}
+
+#customize-theme-controls ul li h4:before {
+	content: '\f139';
+	padding: 0;
+	font: 400 16px/1 dashicons;
+	margin-top: -2px
+}
+
+.swm-customizer-slider-control {
+	width: 100%;
+	position: relative;
+	float: left
+}
+
+.swm-customizer-slider-control .left {
+	width: 180px;
+	display: inline-block;
+	float: left
+}
+
+.swm-customizer-slider-control .left input {
+	width: 175px
+}
+
+.swm-customizer-slider-control .right {
+	width: 60px;
+	display: inline-block;
+	float: right
+}
+
+.swm-customizer-slider-control .right input {
+	text-align: center;
+	background: #eee;
+	font-size: 95%
+}
+
+.customize-control-radio label {
+	font-size: 12px
+}
+
+#customize-control-swm_breadcrumbs_hide_device,
+#customize-control-swm_breadcrumbs_text_hover_color,
+#customize-control-swm_contact_footer_primary_skin_border_color,
+#customize-control-swm_contact_footer_secondary_skin_text_hover_color,
+#customize-control-swm_contact_footer_text_size,
+#customize-control-swm_content_link_hover_color,
+#customize-control-swm_h6_font_size,
+#customize-control-swm_headings_font_weight,
+#customize-control-swm_icon1_url,
+#customize-control-swm_icon2_url,
+#customize-control-swm_icon3_url,
+#customize-control-swm_icon4_url,
+#customize-control-swm_icon5_url,
+#customize-control-swm_icon6_url,
+#customize-control-swm_icon7_url,
+#customize-control-swm_icon8_url,
+#customize-control-swm_icon9_url,
+#customize-control-swm_shop_single_page_sections_title_col,
+#customize-control-swm_tertiary_skin_text_color {
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 25px;
+	margin-bottom: 20px
+}
+
+label.swm-customizer-image-height {
+	width: 190px
+}
+
+label.swm-customizer-image-height span {
+	font-size: 12px;
+	line-height: 18px;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: 400
+}
+
+#customize-theme-controls .control-section.open .accordion-section-title {
+	background: #2ea2cc;
+	color: #fff
+}
+
+#customize-theme-controls .control-section.open .accordion-section-title:after {
+	color: #fff
+}
+
+#swm-customizer-loading {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999999;
+	font-weight: 300;
+	text-align: center
+}
+
+#swm-customizer-loading #swm-cs-proload-content {
+	width: 250px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -60px 0 0 -125px;
+	display: table;
+	position: absolute
+}
+
+#swm-customizer-loading #swm-cs-proload-content p {
+	padding: 0 0 10px;
+	font-size: 10px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #444
+}
+
+#swm-customizer-loading #swm-cs-proload-content p span {
+	position: relative;
+	display: block;
+	z-index: 99999999
+}
+
+#swm-customizer-loading #swm-cs-proload-content p span.swm-cs-loading-title {
+	margin: 7px 0 0 0;
+	font-size: 36px;
+	letter-spacing: -1px
+}
+
+#swm-customizer-loading #swm-cs-proload-content p span.swm-cs-loading {
+	left: 50%;
+	background: url(../../images/loader-infinite.gif) no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+	margin: 0 0 15px -12px
+}
+
+.customize-control select[multiple].swm-customizer-multipost {
+	height: 250px
+}
+
+.swm-customizer-divider {
+	height: 1px;
+	background: rgba(0, 0, 0, .1);
+	width: 100%;
+	display: block;
+	clear: both;
+	margin: 10px 0 10px 0
+}
+
+.customize-control-radio-image .image input[type=radio] {
+	height: auto
+}
+
+.customize-control-radio-image .image label img {
+	border: 2px solid #999;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px
+}
+
+.customize-control-radio-image .image label.ui-state-active img {
+	background: 0 0;
+	border: 2px solid #000
+}
+
+.customize-control-radio-image .image label img {
+	display: inline-block;
+	opacity: .4
+}
+
+.customize-control-radio-image .image label.ui-state-active img {
+	opacity: 1
+}
+
+.customize-control-radio-image .image label.ui-button {
+	padding: 0;
+	background: 0 0;
+	border: 0;
+	box-shadow: none;
+	height: auto;
+	line-height: auto;
+	width: auto
+}
+
+.swm-image-switch {
+	display: block;
+	margin-bottom: 15px
+}
+
+.swm-image-switch-block {
+	height: 18px;
+	width: auto;
+	padding: 3px;
+	background: #e9e9e9;
+	float: left;
+	margin-right: 10px;
+	display: inline;
+	border-radius: 20px
+}
+
+.swm-image-switch-title {
+	float: left;
+	line-height: 26px;
+	overflow: hidden;
+	width: 175px
+}
+
+.customize-control-radio-switch .image.swm-image-switch label {
+	float: left
+}
+
+.customize-control-radio-switch .image.swm-image-switch label p {
+	background: #333;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 100px;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	opacity: 0
+}
+
+.customize-control-radio-switch .image.swm-image-switch label.ui-state-active p {
+	opacity: 1
+}
+
+.customize-control-radio-switch .image.swm-image-switch label p.mode-on {
+	background: #0079b8;
+	margin-right: 3px
+}
+
+.customize-control-radio-switch .image.swm-image-switch label p.mode-off {
+	background: #fff
+}
+
+.customize-control-radio-switch .image.swm-image-switch label.ui-button {
+	box-shadow: none;
+	border: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	background: 0 0;
+	margin-right: 0
+}
+
+#swm-tooltip {
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	background: #111;
+	position: absolute;
+	z-index: 9999999;
+	padding: 8px 12px;
+	border-radius: 3px
+}
+
+#swm-tooltip:after {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #111;
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	margin-left: -10px
+}
+
+#swm-tooltip.top:after {
+	border-top-color: transparent;
+	border-bottom: 10px solid #111;
+	top: -20px;
+	bottom: auto
+}
+
+#swm-tooltip.left:after {
+	left: 10px;
+	margin: 0
+}
+
+#swm-tooltip.right:after {
+	right: 10px;
+	left: auto;
+	margin: 0
+}
+
+.customize-control-title i,
+.swm-image-switch-title i {
+	margin-left: 3px;
+	font-size: 16px;
+	color: #666;
+	line-height: 26px
+}
+
+.customize-control-title i:hover {
+	color: #000
+}
+
+span.swm-customizer-info-text {
+	font-size: 12px;
+	margin-bottom: 20px;
+	display: block
+}
+
+[data-custmizer-hide] {
+	display: none!important
+}
+
+.wp-full-overlay-sidebar {
+	background: #fff
+}
+
+#customize-theme-controls .accordion-section-content {
+	padding-bottom: 60px
+}
+
+.swm-sortable ul {
+	margin-top: 10px
+}
+
+.swm-sortable li.swm-sortable-li {
+	cursor: move;
+	background: #fafafa;
+	padding: 0;
+	padding-left: 15px;
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+	border: 1px solid #e5e5e5;
+	text-overflow: ellipsis;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #222;
+	position: relative
+}
+
+.swm-sortable li.swm-sortable-li:hover {
+	border-color: #999
+}
+
+.swm-sortable li.swm-sortable-li.swm-hide {
+	opacity: .75;
+	border-color: #e5e5e5
+}
+
+.swm-sortable li.swm-sortable-li .swm-hide-sortee {
+	cursor: pointer
+}
+
+.swm-sortable li.swm-sortable-li .swm-hide-sortee:hover {
+	color: #222
+}
+
+.swm-sortable ul li:last-child {
+	margin-bottom: 0
+}
+
+.swm-sortable li.swm-hide {
+	color: #ccc;
+	background: 0 0
+}
+
+.swm-sortable li.swm-sortable-li .onofficons {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	border-radius: 100px;
+	background: green;
+	margin: 13px
+}
+
+.swm-sortable li.swm-sortable-li .onofficons.green {
+	background: green
+}
+
+.swm-sortable li.swm-sortable-li .onofficons.red {
+	background: red;
+	opacity: .5
+}
+
+.swm-buttonset {
+	border: 1px solid rgba(0, 0, 0, .1);
+	display: inline-block;
+	font-size: 14px;
+	padding: 0;
+	line-height: normal;
+	border-radius: 3px;
+	overflow: hidden
+}
+
+.swm-buttonset label {
+	padding: 5px 10px;
+	border-color: #eee;
+	border-left: 1px solid rgba(0, 0, 0, .1);
+	display: inline-block;
+	float: left
+}
+
+.swm-buttonset label.ui-state-default {
+	background: #fff
+}
+
+.swm-buttonset label.ui-state-hover {
+	background: rgba(0, 0, 0, .05)
+}
+
+.swm-buttonset label.ui-state-active {
+	color: #fff;
+	background: #008ec2
+}
+
+.swm-buttonset label.ui-button {
+	border: 0;
+	line-height: normal;
+	height: auto;
+	width: auto;
+	box-shadow: none;
+	border-left: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 0
+}
+
+.ui-button-text-only .ui-button-text {
+	padding: 0
+}
+
+.ui-buttonset .ui-button {
+	margin-right: 0
+}
+
+.ui-widget {
+	font-size: 12px
+}
+
+#customize-theme-controls .ui-helper-hidden-accessible {
+	top: auto
+}
+
+#customize-theme-controls ul li#customize-control-swm_logo_retina,
+#customize-theme-controls ul li#customize-control-swm_sticky_logo_retina {
+	position: relative;
+	margin-top: 20px
+}

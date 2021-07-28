@@ -1,0 +1,207 @@
+.gyan-position-top {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.gyan-position-bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.gyan-position-left {
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.gyan-position-right {
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.gyan-position-top-left {
+  top: 0;
+  left: 0;
+}
+
+.gyan-position-top-right {
+  top: 0;
+  right: 0;
+}
+
+.gyan-position-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.gyan-position-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.gyan-position-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.gyan-position-center-left {
+  left: 0;
+}
+
+.gyan-position-center-right {
+  right: 0;
+}
+
+.gyan-position-center-left-out {
+  right: 100%;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.gyan-position-center-right-out {
+  left: 100%;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.gyan-position-top-center,
+.gyan-position-bottom-center {
+  left: 50%;
+  transform: translateX(-50%);
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.gyan-position-top-center {
+  top: 0;
+}
+
+.gyan-position-bottom-center {
+  bottom: 0;
+}
+
+.gyan-position-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.gyan-position-relative {
+  position: relative !important;
+}
+
+.gyan-position-absolute {
+  position: absolute !important;
+}
+
+.gyan-position-fixed {
+  position: fixed !important;
+}
+
+.gyan-position-z-index {
+  z-index: 1;
+}
+
+.gyan-position-small {
+  max-width: calc(100% - (15px * 2));
+  margin: 15px;
+}
+
+.gyan-position-small.gyan-position-center {
+  transform: translate(-50%, -50%) translate(-15px, -15px);
+}
+
+.gyan-position-small.gyan-position-top-center,
+.gyan-position-small.gyan-position-bottom-center {
+  transform: translateX(-50%) translateX(-15px);
+}
+
+.gyan-position-medium {
+  max-width: calc(100% - (30px * 2));
+  margin: 30px;
+}
+
+.gyan-position-medium.gyan-position-center {
+  transform: translate(-50%, -50%) translate(-30px, -30px);
+}
+
+.gyan-position-medium.gyan-position-top-center,
+.gyan-position-medium.gyan-position-bottom-center {
+  transform: translateX(-50%) translateX(-30px);
+}
+
+.gyan-position-large {
+  max-width: calc(100% - (30px * 2));
+  margin: 30px;
+}
+
+.gyan-position-large.gyan-position-center {
+  transform: translate(-50%, -50%) translate(-30px, -30px);
+}
+
+.gyan-position-large.gyan-position-top-center,
+.gyan-position-large.gyan-position-bottom-center {
+  transform: translateX(-50%) translateX(-30px);
+}
+
+[class*='gyan-position-top'],
+[class*='gyan-position-bottom'],
+[class*='gyan-position-left'],
+[class*='gyan-position-right'],
+[class*='gyan-position-center'] {
+  position: absolute !important;
+}
+
+[class*='gyan-position-center-left'],
+[class*='gyan-position-center-right'] {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gyan-position-small[class*='gyan-position-center-left'],
+.gyan-position-small[class*='gyan-position-center-right'] {
+  transform: translateY(-50%) translateY(-15px);
+}
+
+.gyan-position-medium[class*='gyan-position-center-left'],
+.gyan-position-medium[class*='gyan-position-center-right'] {
+  transform: translateY(-50%) translateY(-30px);
+}
+
+.gyan-position-large[class*='gyan-position-center-left'],
+.gyan-position-large[class*='gyan-position-center-right'] {
+  transform: translateY(-50%) translateY(-30px);
+}
+
+@media (min-width:1200px) {
+  .gyan-position-large {
+    max-width: calc(100% - (50px * 2));
+    margin: 50px;
+  }
+
+  .gyan-position-large.gyan-position-center {
+    transform: translate(-50%, -50%) translate(-50px, -50px);
+  }
+
+  .gyan-position-large[class*='gyan-position-center-left'],
+  .gyan-position-large[class*='gyan-position-center-right'] {
+    transform: translateY(-50%) translateY(-50px);
+  }
+
+  .gyan-position-large.gyan-position-top-center,
+  .gyan-position-large.gyan-position-bottom-center {
+    transform: translateX(-50%) translateX(-50px);
+  }
+}

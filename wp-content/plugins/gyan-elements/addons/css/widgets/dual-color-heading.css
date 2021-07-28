@@ -1,0 +1,17 @@
+.gyan-stack-desktop-yes .gyan-adv-heading-stack,
+.gyan-stack-tablet-yes .gyan-adv-heading-stack,
+.gyan-stack-mobile-yes .gyan-adv-heading-stack {
+	display: block;
+}
+
+@media only screen and (max-width: 976px) {
+	.gyan-heading-stack-tablet .gyan-adv-heading-stack {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.gyan-heading-stack-mobile .gyan-adv-heading-stack {
+		display: block;
+	}
+}

@@ -1,0 +1,36 @@
+.gyan-animated-text .gyan-animated-text-strings > .animated {
+	display: inline-block;
+}
+
+.gyan-animated-text .gyan-animated-text-strings {
+	text-align: center;
+}
+
+@keyframes blink_cursor {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.gyan-animated-text .typed-cursor {
+	font-weight: 400  !important;
+	font-style: normal !important;
+	opacity: 1;
+	animation: blink_cursor 0.7s infinite;
+}
+
+.gyan-animated-text > * {
+	opacity: 0;
+}
+
+.gyan-animated-text-strings.morphext {
+	display: inline-block;
+}

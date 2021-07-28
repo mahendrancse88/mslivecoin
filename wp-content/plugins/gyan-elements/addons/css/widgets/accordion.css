@@ -1,0 +1,72 @@
+.gyan-accordion {
+	width: auto;
+	height: auto;
+}
+
+.gyan-accordion-item {
+	overflow: hidden;
+}
+
+.gyan-accordion .gyan-accordion-tab-title {
+	padding: 15px;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	cursor: pointer;
+	outline: 0;
+}
+
+.gyan-accordion .gyan-accordion-toggle-icon {
+	z-index: 10;
+}
+
+.gyan-accordion .gyan-accordion-toggle-icon-open, .gyan-accordion .gyan-accordion-tab-show .gyan-accordion-toggle-icon-close, .gyan-accordion .gyan-accordion-tab-active-default .gyan-accordion-toggle-icon-close {
+	display: none;
+}
+
+.gyan-accordion .gyan-accordion-tab-show .gyan-accordion-toggle-icon-open, .gyan-accordion .gyan-accordion-tab-active-default .gyan-accordion-toggle-icon-open {
+	display: inline;
+}
+
+.gyan-accordion .gyan-accordion-tab-content {
+	display: none;
+	padding: 15px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1rem;
+	line-height: 1.7;
+}
+
+.gyan-accordion .gyan-accordion-tab-content p:last-child {
+	margin: 0;
+}
+
+.gyan-accordion .gyan-accordion-tab-content.gyan-accordion-tab-active {
+	display: block;
+}
+
+.gyan-accordion-tab-icon {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.gyan-accordion,
+.gyan-accordion .gyan-accordion-tab-title,
+.gyan-accordion-tab-title .gyan-icon,
+.gyan-accordion-tab-title .gyan-icon svg {
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}

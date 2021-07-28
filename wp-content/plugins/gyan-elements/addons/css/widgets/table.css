@@ -1,0 +1,40 @@
+.gyan-table table {
+	margin: 0;
+}
+
+.gyan-table table th, .gyan-table table td, .gyan-table table tr, .gyan-table table svg {
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.gyan-table table {
+	width: 100%;
+}
+
+.gyan-table {
+	overflow-x: auto;
+}
+
+.gyan-table svg {
+	width: 1em;
+	height: 1em;
+	position: relative;
+}
+
+.gyan-table .gyan-icon-above,
+.gyan-table .gyan-table-thead-icon-above .gyan-table-thead {
+	display: block;
+}
+
+.gyan-table.gyan-table-tbody-th-top table tbody th, .gyan-table.gyan-table-tbody-td-top table tbody td {
+	vertical-align: top;
+}
+
+.gyan-table.gyan-table-tbody-th-middle table tbody th, .gyan-table.gyan-table-tbody-td-middle table tbody td {
+	vertical-align: middle;
+}
+
+.gyan-table.gyan-table-tbody-th-bottom table tbody th, .gyan-table.gyan-table-tbody-td-bottom table tbody td {
+	vertical-align: bottom;
+}

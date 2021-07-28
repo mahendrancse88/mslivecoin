@@ -1,0 +1,198 @@
+.gyan-hot-button .gyan-hot-button-title {
+	font-weight: 700;
+}
+
+.gyan-hot-button .gyan-hot-button-desc {
+	font-size: 0.9em;
+	display: block;
+}
+
+.gyan-hot-button .elementor-button-content-wrapper {
+	margin-bottom: 7px;
+}
+
+.gyan-hot-button .gyan-hot-buttons-all_left .elementor-button-content-wrapper .elementor-button-text,
+.gyan-hot-button .gyan-hot-buttons-all_left .elementor-button-content-wrapper .gyan-hot-buttons-wrap,
+.gyan-hot-button .gyan-hot-buttons-all_right .elementor-button-content-wrapper .elementor-button-text,
+.gyan-hot-button .gyan-hot-buttons-all_right .elementor-button-content-wrapper .gyan-hot-buttons-wrap {
+	display: inline-block;
+}
+
+.gyan-hot-button .gyan-hot-buttons-all_left.elementor-button,
+.gyan-hot-button .gyan-hot-buttons-all_right.elementor-button {
+	-js-display: inline-flex;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -moz-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.gyan-hot-button .gyan-hot-buttons-all_right {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	-moz-box-orient: horizontal;
+	-moz-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.gyan-hot-buttons-all_left.elementor-button .elementor-button-icon {
+	float: left;
+	margin-right: 10px;
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.gyan-hot-buttons-all_right.elementor-button .elementor-button-icon {
+	float: right;
+	margin-left: 10px;
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.gyan-mbutton-text-left .elementor-button-content-wrapper,
+.gyan-mbutton-text-right .elementor-button-content-wrapper.gyan-buttons-icon-right {
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-moz-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.elementor-button-icon,
+.elementor-button-icon.elementor-align-icon-right,
+.elementor-button-icon.elementor-align-icon-left,
+.gyan-multi-button-wrap .elementor-button .elementor-align-icon-right {
+	order: 0;
+	webkit-order: 0;
+	-ms-flex-order: 0;
+}
+
+.gyan-hot-button .elementor-button-text {
+	-webkit-box-flex: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-positive: 0;
+	flex-grow: 0;
+}
+
+.gyan-hot-button .elementor-button-content-wrapper.gyan-buttons-icon-right {
+	-webkit-box-direction: row;
+	-webkit-flex-direction: row;
+	-moz-box-orient: horizontal;
+	-moz-box-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.gyan-hot-button .elementor-align-icon-all_left.elementor-button-icon,
+.gyan-hot-button .elementor-align-icon-all_right.elementor-button-icon {
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+}
+
+.gyan-hot-button .fa {
+	font-family: 'Font Awesome 5 free';
+	font-weight: 700;
+}
+
+.gyan-hot-button .elementor-button-content-wrapper {
+	-js-display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.gyan-hot-button .elementor-button-content-wrapper.gyan-buttons-icon-right {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	-moz-box-orient: horizontal;
+	-moz-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.gyan-hot-button .elementor-button-content-wrapper .elementor-button-text,
+.gyan-hot-button .elementor-button-content-wrapper .elementor-button-icon {
+	display: inline-block;
+}
+
+.gyan-mbutton-text-left .gyan-hot-button-desc, .gyan-mbutton-text-left .gyan-hot-button-title {
+	text-align: left;
+}
+
+.gyan-mbutton-text-center .elementor-button-content-wrapper {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.gyan-mbutton-text-center .gyan-hot-button-desc {
+	text-align: center;
+}
+
+.gyan-mbutton-text-right .elementor-button-content-wrapper, .gyan-mbutton-text-left .elementor-button-content-wrapper.gyan-buttons-icon-right {
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-moz-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.gyan-mbutton-text-right .gyan-hot-button-desc, .gyan-mbutton-text-right .gyan-hot-button-title {
+	text-align: right;
+}
+
+@media only screen and (max-width: 976px) {
+	.gyan-tablet-button-halign-justify .gyan-button-wrapper {
+		-webkit-box-flex: 1;
+		-webkit-flex-grow: 1;
+		-moz-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.gyan-mobile-button-halign-justify .gyan-button-wrapper {
+		-webkit-box-flex: 1;
+		-webkit-flex-grow: 1;
+		-moz-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+}

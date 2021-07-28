@@ -1,0 +1,23 @@
+.gyan-piechart {
+	position: relative;
+	margin: 0 auto;
+}
+
+.gyan-piechart .gyan-piechart-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.gyan-piechart .gyan-piechart-center, .gyan-progressbars .gyan-bar-percent {
+	width: 100%;
+	align-self: center;
+}
+
+.gyan-piechart-title-below-chart {
+	text-align: center;
+	margin: 10px;
+}

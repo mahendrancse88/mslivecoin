@@ -1,0 +1,2595 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: en_US\n"
+"POT-Creation-Date: 2021-04-13 00:11+0530\n"
+"PO-Revision-Date: 2019-06-22 10:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_html__;esc_attr__;_c;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: parts\n"
+"X-Poedit-SearchPath-2: functions\n"
+"X-Poedit-SearchPath-3: plugins\n"
+"X-Poedit-SearchPath-4: customizer\n"
+"X-Poedit-SearchPath-5: templates\n"
+"X-Poedit-SearchPathExcluded-0: css\n"
+"X-Poedit-SearchPathExcluded-1: images\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: webfonts\n"
+
+#: 404.php:13
+msgid "Oops! Page is not available."
+msgstr ""
+
+#: 404.php:14
+msgid ""
+"The page you are looking for was moved, removed, renamed or never existed."
+msgstr ""
+
+#: 404.php:16
+msgid "Back to Home"
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:19
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:19
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:19
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:77
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:78 comments.php:80
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:79
+msgid "Cancel Comment"
+msgstr ""
+
+#: customizer/controls.php:71
+msgid "-- Select --"
+msgstr ""
+
+#: customizer/controls.php:238
+msgid ""
+"Note: Please create revolution slider to view list of all revolution "
+"slider(s) name from WordPress Admin > Revolution Slider"
+msgstr ""
+
+#: customizer/customizer.php:65
+msgid "Loading"
+msgstr ""
+
+#: customizer/customizer.php:65
+msgid "Customizer"
+msgstr ""
+
+#: customizer/fonts.php:4685
+msgid "Ultra Light"
+msgstr ""
+
+#: customizer/fonts.php:4686
+msgid "Ultra Light Italic"
+msgstr ""
+
+#: customizer/fonts.php:4687
+msgid "Light"
+msgstr ""
+
+#: customizer/fonts.php:4688
+msgid "Light Italic"
+msgstr ""
+
+#: customizer/fonts.php:4689
+msgid "Book"
+msgstr ""
+
+#: customizer/fonts.php:4690
+msgid "Book Italic"
+msgstr ""
+
+#: customizer/fonts.php:4691
+msgid "Regular"
+msgstr ""
+
+#: customizer/fonts.php:4692
+msgid "Regular Italic"
+msgstr ""
+
+#: customizer/fonts.php:4693 customizer/theme-options.php:994
+msgid "Medium"
+msgstr ""
+
+#: customizer/fonts.php:4694
+msgid "Medium Italic"
+msgstr ""
+
+#: customizer/fonts.php:4695
+msgid "Semi-Bold"
+msgstr ""
+
+#: customizer/fonts.php:4696
+msgid "Semi-Bold Italic"
+msgstr ""
+
+#: customizer/fonts.php:4697 customizer/theme-options.php:1000
+msgid "Bold"
+msgstr ""
+
+#: customizer/fonts.php:4698
+msgid "Bold Italic"
+msgstr ""
+
+#: customizer/fonts.php:4699
+msgid "Extra Bold"
+msgstr ""
+
+#: customizer/fonts.php:4700
+msgid "Extra Bold Italic"
+msgstr ""
+
+#: customizer/fonts.php:4701
+msgid "Ultra Bold"
+msgstr ""
+
+#: customizer/fonts.php:4702
+msgid "Ultra Bold Italic"
+msgstr ""
+
+#: customizer/theme-options.php:27 customizer/theme-options.php:41
+#: functions/theme-filters.php:59
+msgid "Blog"
+msgstr ""
+
+#: customizer/theme-options.php:28 customizer/theme-options.php:45
+#: customizer/theme-options.php:359
+msgid "Header"
+msgstr ""
+
+#: customizer/theme-options.php:29
+msgid "Footer"
+msgstr ""
+
+#: customizer/theme-options.php:42
+msgid "Blog Single"
+msgstr ""
+
+#: customizer/theme-options.php:43
+msgid "Category"
+msgstr ""
+
+#: customizer/theme-options.php:46 customizer/translations.php:45
+#: customizer/translations.php:58
+msgid "Logo"
+msgstr ""
+
+#: customizer/theme-options.php:47
+msgid "Main Menu"
+msgstr ""
+
+#: customizer/theme-options.php:48
+msgid "Dropdown Menu"
+msgstr ""
+
+#: customizer/theme-options.php:49
+msgid "Mega Menu"
+msgstr ""
+
+#: customizer/theme-options.php:50
+msgid "Mobile Menu"
+msgstr ""
+
+#: customizer/theme-options.php:51 customizer/theme-options.php:490
+msgid "Sticky Menu"
+msgstr ""
+
+#: customizer/theme-options.php:52 customizer/theme-options.php:524
+#: functions/theme-filters.php:56
+msgid "Search"
+msgstr ""
+
+#: customizer/theme-options.php:53 customizer/theme-options.php:552
+msgid "Header Button"
+msgstr ""
+
+#: customizer/theme-options.php:54 customizer/theme-options.php:598
+#: functions/register-widgets.php:26
+msgid "Side Panel"
+msgstr ""
+
+#: customizer/theme-options.php:55 customizer/theme-options.php:657
+msgid "Contact Info"
+msgstr ""
+
+#: customizer/theme-options.php:57 customizer/theme-options.php:843
+msgid "Widget Footer"
+msgstr ""
+
+#: customizer/theme-options.php:58 customizer/theme-options.php:902
+msgid "Contact Footer"
+msgstr ""
+
+#: customizer/theme-options.php:59 customizer/theme-options.php:936
+msgid "Small Footer"
+msgstr ""
+
+#: customizer/theme-options.php:61
+msgid "Shop Page"
+msgstr ""
+
+#: customizer/theme-options.php:62
+msgid "Shop Signel/Product Detail Page"
+msgstr ""
+
+#: customizer/theme-options.php:63
+msgid "Cart Page"
+msgstr ""
+
+#: customizer/theme-options.php:65
+msgid "Ganeral"
+msgstr ""
+
+#: customizer/theme-options.php:66
+msgid "Layout"
+msgstr ""
+
+#: customizer/theme-options.php:67 customizer/translations.php:50
+msgid "Styling"
+msgstr ""
+
+#: customizer/theme-options.php:68 customizer/theme-options.php:306
+msgid "Top Bar"
+msgstr ""
+
+#: customizer/theme-options.php:69
+msgid "Sub Header ( Hero Banner )"
+msgstr ""
+
+#: customizer/theme-options.php:70 plugins/meta-box-options.php:202
+msgid "Sidebar"
+msgstr ""
+
+#: customizer/theme-options.php:71
+msgid "Fonts"
+msgstr ""
+
+#: customizer/theme-options.php:72
+msgid "Page"
+msgstr ""
+
+#: customizer/theme-options.php:73
+msgid "Portfolio"
+msgstr ""
+
+#: customizer/theme-options.php:74
+msgid "Classes"
+msgstr ""
+
+#: customizer/theme-options.php:75
+msgid "Team"
+msgstr ""
+
+#: customizer/theme-options.php:76 customizer/translations.php:46
+#: customizer/translations.php:48
+msgid "Social Media Icons"
+msgstr ""
+
+#: customizer/theme-options.php:172
+msgid "Page Preloader"
+msgstr ""
+
+#: customizer/theme-options.php:175
+msgid "Preloader Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:178
+msgid "Preloader Shape Color"
+msgstr ""
+
+#: customizer/theme-options.php:181
+msgid "Bottom Right Go to Top Arrow"
+msgstr ""
+
+#: customizer/theme-options.php:184
+msgid "Go to Top Arrow Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:187
+msgid "Go to Top Arrow Color"
+msgstr ""
+
+#: customizer/theme-options.php:198
+msgid "Max Width (px)"
+msgstr ""
+
+#: customizer/theme-options.php:201
+msgid "Content Width for Page with Sidebar (%)"
+msgstr ""
+
+#: customizer/theme-options.php:204
+msgid "Layout Left and Right Padding"
+msgstr ""
+
+#: customizer/theme-options.php:208
+msgid "Top Padding (Desktop)"
+msgstr ""
+
+#: customizer/theme-options.php:211
+msgid "Bottom Padding (Desktop)"
+msgstr ""
+
+#: customizer/theme-options.php:214
+msgid "Top Padding (Tablet)"
+msgstr ""
+
+#: customizer/theme-options.php:217
+msgid "Bottom Padding (Tablet)"
+msgstr ""
+
+#: customizer/theme-options.php:220
+msgid "Top Padding (Mobile)"
+msgstr ""
+
+#: customizer/theme-options.php:223
+msgid "Bottom Padding (Mobile)"
+msgstr ""
+
+#: customizer/theme-options.php:226 plugins/meta-box-options.php:195
+msgid "Content Layout"
+msgstr ""
+
+#: customizer/theme-options.php:229 customizer/translations.php:56
+#: plugins/meta-box-options.php:132
+msgid "Site Layout"
+msgstr ""
+
+#: customizer/theme-options.php:232
+msgid "Boxed Layout Drop Shadow"
+msgstr ""
+
+#: customizer/theme-options.php:235
+msgid "Boxed Layout Top and Bottom Margin"
+msgstr ""
+
+#: customizer/theme-options.php:238
+msgid "Remove Boxed Layout Effect from this Resolution"
+msgstr ""
+
+#: customizer/theme-options.php:241
+msgid "Boxed Layout Border Radius"
+msgstr ""
+
+#: customizer/theme-options.php:244
+msgid "Boxed Layout Left and Right Padding"
+msgstr ""
+
+#: customizer/theme-options.php:248 customizer/theme-options.php:312
+#: customizer/theme-options.php:339 customizer/theme-options.php:445
+#: customizer/theme-options.php:530 customizer/theme-options.php:735
+#: plugins/meta-box-options.php:370
+msgid "Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:251 customizer/theme-options.php:533
+msgid "Background Color Opacity"
+msgstr ""
+
+#: customizer/theme-options.php:254 customizer/theme-options.php:738
+#: customizer/theme-options.php:882 functions/arrays.php:84
+#: plugins/meta-box-options.php:378
+msgid "Background Image"
+msgstr ""
+
+#: customizer/theme-options.php:257
+msgid "Body Background Image Style"
+msgstr ""
+
+#: customizer/theme-options.php:268
+msgid "Primary Skin Color"
+msgstr ""
+
+#: customizer/theme-options.php:271
+msgid "Text Color on Primary Skin Color Background"
+msgstr ""
+
+#: customizer/theme-options.php:274
+msgid "Secondary Skin Color"
+msgstr ""
+
+#: customizer/theme-options.php:277
+msgid "Text Color on Secondary Skin Color Background"
+msgstr ""
+
+#: customizer/theme-options.php:280
+msgid "Site Content Headings ( H1 to H6 ) Color"
+msgstr ""
+
+#: customizer/theme-options.php:283
+msgid "Site Content Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:286
+msgid "Site Content Link Color"
+msgstr ""
+
+#: customizer/theme-options.php:289
+msgid "Site Content Link Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:292
+msgid "Highlight Background"
+msgstr ""
+
+#: customizer/theme-options.php:295
+msgid "Highlight Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:309 customizer/theme-options.php:476
+#: customizer/theme-options.php:846 customizer/theme-options.php:942
+#: customizer/theme-options.php:982
+msgid "Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:315 customizer/theme-options.php:342
+#: customizer/theme-options.php:439 customizer/theme-options.php:536
+#: customizer/theme-options.php:631 customizer/theme-options.php:699
+#: customizer/theme-options.php:798 customizer/theme-options.php:867
+#: customizer/theme-options.php:945
+msgid "Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:318
+msgid "Text (Link) Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:321
+msgid "Menu Icons Color"
+msgstr ""
+
+#: customizer/theme-options.php:324
+msgid "Hide Topbar At"
+msgstr ""
+
+#: customizer/theme-options.php:327 customizer/theme-options.php:696
+#: customizer/translations.php:19 customizer/translations.php:43
+msgid "Social Icons"
+msgstr ""
+
+#: customizer/theme-options.php:330
+msgid "Icons Color"
+msgstr ""
+
+#: customizer/theme-options.php:333
+msgid "Icons Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:336
+msgid "Topbar Left Styling"
+msgstr ""
+
+#: customizer/theme-options.php:345 customizer/theme-options.php:442
+msgid "Text Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:348 customizer/theme-options.php:678
+msgid "Icon Color"
+msgstr ""
+
+#: customizer/theme-options.php:362 customizer/theme-options.php:1094
+msgid "Header Style"
+msgstr ""
+
+#: customizer/theme-options.php:365
+msgid "Header Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:368
+msgid "Transparent Header Background Color Opacity"
+msgstr ""
+
+#: customizer/theme-options.php:371 plugins/meta-box-options.php:328
+msgid "Header Height (Desktop)"
+msgstr ""
+
+#: customizer/theme-options.php:374 plugins/meta-box-options.php:340
+msgid "Header Height (Tablet)"
+msgstr ""
+
+#: customizer/theme-options.php:377 plugins/meta-box-options.php:352
+msgid "Header Height (Mobile)"
+msgstr ""
+
+#: customizer/theme-options.php:382
+msgid "Standard Logo Image (for Desktop)"
+msgstr ""
+
+#: customizer/theme-options.php:385
+msgid "Retina Logo Image (for Mobile)"
+msgstr ""
+
+#: customizer/theme-options.php:388
+msgid "Standard Logo Width (px)"
+msgstr ""
+
+#: customizer/theme-options.php:391
+msgid "Standard Logo Height (only number)"
+msgstr ""
+
+#: customizer/theme-options.php:396 customizer/theme-options.php:502
+msgid "Main Links Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:399
+msgid "Space Between Main Links"
+msgstr ""
+
+#: customizer/theme-options.php:402 customizer/theme-options.php:505
+msgid "Main Links Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:405 customizer/theme-options.php:508
+msgid "Main Links Hover/Active Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:408
+msgid "Active Link Border"
+msgstr ""
+
+#: customizer/theme-options.php:411 customizer/theme-options.php:511
+msgid "Active Link Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:414
+msgid "Active Link Border Style"
+msgstr ""
+
+#: customizer/theme-options.php:417 customizer/theme-options.php:514
+msgid "Main Links Background"
+msgstr ""
+
+#: customizer/theme-options.php:420
+msgid "Main Links Background Color Opacity"
+msgstr ""
+
+#: customizer/theme-options.php:423
+msgid "Main links Text Transform"
+msgstr ""
+
+#: customizer/theme-options.php:426
+msgid "Dropdown Indicator - Arrow Icon"
+msgstr ""
+
+#: customizer/theme-options.php:429
+msgid "Links Divider Line"
+msgstr ""
+
+#: customizer/theme-options.php:432 customizer/theme-options.php:517
+msgid "Divider Line Color"
+msgstr ""
+
+#: customizer/theme-options.php:436 customizer/theme-options.php:628
+#: customizer/theme-options.php:795 customizer/theme-options.php:1107
+#: customizer/theme-options.php:1166 customizer/theme-options.php:1227
+msgid "Text Size"
+msgstr ""
+
+#: customizer/theme-options.php:448 customizer/theme-options.php:1116
+#: customizer/theme-options.php:1175 customizer/theme-options.php:1236
+msgid "Text Transform"
+msgstr ""
+
+#: customizer/theme-options.php:451
+msgid "Use Main Links Font Family"
+msgstr ""
+
+#: customizer/theme-options.php:454
+msgid "Space Between Links (Top/Bottom Padding)"
+msgstr ""
+
+#: customizer/theme-options.php:457
+msgid "Dropdown Menu Width"
+msgstr ""
+
+#: customizer/theme-options.php:460
+msgid "Box(Outer) Shadow"
+msgstr ""
+
+#: customizer/theme-options.php:463
+msgid "Sub Menu Indicator - Arrow Icon"
+msgstr ""
+
+#: customizer/theme-options.php:467
+msgid "Space Between Two Items (Top/Bottom Padding)"
+msgstr ""
+
+#: customizer/theme-options.php:470
+msgid "Menu List Text Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:473
+msgid "Bullet Arrow Before Items"
+msgstr ""
+
+#: customizer/theme-options.php:479 customizer/theme-options.php:849
+#: customizer/theme-options.php:985 customizer/theme-options.php:1113
+#: customizer/theme-options.php:1172 customizer/theme-options.php:1233
+msgid "Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:482 customizer/theme-options.php:1224
+msgid "Color"
+msgstr ""
+
+#: customizer/theme-options.php:486
+msgid "Width At Which Menu Becomes Responsive"
+msgstr ""
+
+#: customizer/theme-options.php:493
+msgid "Sticky Menu Standard Logo Image (for Desktop)"
+msgstr ""
+
+#: customizer/theme-options.php:496
+msgid "Sticky Menu Retina Logo Image (for Mobile)"
+msgstr ""
+
+#: customizer/theme-options.php:499
+msgid "Sticky Menu Standard Logo Width (px)"
+msgstr ""
+
+#: customizer/theme-options.php:520
+msgid "Hide Sticky Menu From This Resolution"
+msgstr ""
+
+#: customizer/theme-options.php:527
+msgid "Search Box Text Size"
+msgstr ""
+
+#: customizer/theme-options.php:539
+msgid "Input Field Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:542 customizer/theme-options.php:622
+msgid "Close Icon Color"
+msgstr ""
+
+#: customizer/theme-options.php:545
+msgid "Default Search Placeholder Text"
+msgstr ""
+
+#: customizer/theme-options.php:548
+msgid "Search Form Max Width (px)"
+msgstr ""
+
+#: customizer/theme-options.php:555
+msgid "Button Text"
+msgstr ""
+
+#: customizer/theme-options.php:558
+msgid "Button Link"
+msgstr ""
+
+#: customizer/theme-options.php:561
+msgid "Open Link Page in New Window"
+msgstr ""
+
+#: customizer/theme-options.php:564
+msgid "Button Text Size"
+msgstr ""
+
+#: customizer/theme-options.php:567
+msgid "Button Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:570
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:573
+msgid "Button Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:576
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:579
+msgid "Button Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:582
+msgid "Button Hover Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:585
+msgid "Button Border Width"
+msgstr ""
+
+#: customizer/theme-options.php:588
+msgid "Button Border Radius"
+msgstr ""
+
+#: customizer/theme-options.php:591
+msgid "Button Border Style"
+msgstr ""
+
+#: customizer/theme-options.php:594
+msgid "Hide Button At"
+msgstr ""
+
+#: customizer/theme-options.php:601
+msgid "Side Panel Max Width (px)"
+msgstr ""
+
+#: customizer/theme-options.php:604
+msgid "Hide Side Panel from this Resolution"
+msgstr ""
+
+#: customizer/theme-options.php:607
+msgid "Side Panel Icon Color (in Header Menu)"
+msgstr ""
+
+#: customizer/theme-options.php:610
+msgid "Side Panel Icon Style"
+msgstr ""
+
+#: customizer/theme-options.php:613
+msgid "Overlay Background"
+msgstr ""
+
+#: customizer/theme-options.php:616
+msgid "Overlay Background Opacity"
+msgstr ""
+
+#: customizer/theme-options.php:619 customizer/translations.php:32
+msgid "Close Icon"
+msgstr ""
+
+#: customizer/theme-options.php:625
+msgid "Close Icon Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:634 customizer/theme-options.php:801
+msgid "Link Color"
+msgstr ""
+
+#: customizer/theme-options.php:637 customizer/theme-options.php:804
+msgid "Link Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:640 customizer/theme-options.php:807
+msgid "Elements Borders Color"
+msgstr ""
+
+#: customizer/theme-options.php:643 customizer/theme-options.php:681
+#: customizer/theme-options.php:751 customizer/theme-options.php:818
+#: plugins/meta-box-options.php:415
+msgid "Title Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:646 customizer/theme-options.php:763
+#: customizer/theme-options.php:824 plugins/meta-box-options.php:458
+msgid "Title Text Transform"
+msgstr ""
+
+#: customizer/theme-options.php:649 customizer/theme-options.php:687
+#: customizer/theme-options.php:827
+msgid "Title Text Size"
+msgstr ""
+
+#: customizer/theme-options.php:652 customizer/theme-options.php:830
+msgid "Title Letter Spacing"
+msgstr ""
+
+#: customizer/theme-options.php:660 customizer/theme-options.php:914
+msgid "Phone No."
+msgstr ""
+
+#: customizer/theme-options.php:663 customizer/theme-options.php:917
+msgid "Phone No. Sub Title"
+msgstr ""
+
+#: customizer/theme-options.php:666 customizer/theme-options.php:908
+msgid "Email Id"
+msgstr ""
+
+#: customizer/theme-options.php:669 customizer/theme-options.php:911
+msgid "Email Id Sub Title"
+msgstr ""
+
+#: customizer/theme-options.php:672 customizer/theme-options.php:920
+msgid "Address"
+msgstr ""
+
+#: customizer/theme-options.php:675 customizer/theme-options.php:923
+msgid "Address Sub Title"
+msgstr ""
+
+#: customizer/theme-options.php:684
+msgid "Sub Title Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:690
+msgid "Sub Title Text Size"
+msgstr ""
+
+#: customizer/theme-options.php:693
+msgid "Hide Contact Info At"
+msgstr ""
+
+#: customizer/theme-options.php:702
+msgid "Background /Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:705
+msgid "Hover Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:708
+msgid "Hover Background / Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:719 customizer/theme-options.php:1091
+msgid "Sub Header"
+msgstr ""
+
+#: customizer/theme-options.php:722
+msgid "Move Sub Heder Above Header and Topbar"
+msgstr ""
+
+#: customizer/theme-options.php:725
+msgid "Height (Desktop)"
+msgstr ""
+
+#: customizer/theme-options.php:728
+msgid "Height (Tablet)"
+msgstr ""
+
+#: customizer/theme-options.php:731
+msgid "Height (Mobile)"
+msgstr ""
+
+#: customizer/theme-options.php:741 customizer/theme-options.php:885
+#: plugins/meta-box-options.php:385
+msgid "Background Image Style"
+msgstr ""
+
+#: customizer/theme-options.php:745
+msgid "Title Text"
+msgstr ""
+
+#: customizer/theme-options.php:748 plugins/meta-box-options.php:407
+msgid "Title Position"
+msgstr ""
+
+#: customizer/theme-options.php:754
+msgid "Font Size (Desktop) "
+msgstr ""
+
+#: customizer/theme-options.php:757
+msgid "Font Size (Tablet) "
+msgstr ""
+
+#: customizer/theme-options.php:760
+msgid "Font Size (Mobile) "
+msgstr ""
+
+#: customizer/theme-options.php:766 customizer/translations.php:29
+msgid "Breadcrumbs"
+msgstr ""
+
+#: customizer/theme-options.php:769
+msgid "Breadcrumbs Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:772 plugins/meta-box-options.php:493
+msgid "Breadcrumbs Text Transform"
+msgstr ""
+
+#: customizer/theme-options.php:775 plugins/meta-box-options.php:501
+msgid "Breadcrumbs Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:778 plugins/meta-box-options.php:508
+msgid "Breadcrumbs Text Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:781
+msgid "Breadcrumbs Icons Color"
+msgstr ""
+
+#: customizer/theme-options.php:784
+msgid "Hide Breadcrumbs At"
+msgstr ""
+
+#: customizer/theme-options.php:810
+msgid "Widget Box Background"
+msgstr ""
+
+#: customizer/theme-options.php:813
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: customizer/theme-options.php:821
+msgid "Title Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:852
+msgid "Space Between Two Widgets"
+msgstr ""
+
+#: customizer/theme-options.php:855
+msgid "Select Column Style"
+msgstr ""
+
+#: customizer/theme-options.php:858
+msgid "Primary Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:861
+msgid "Secondary Background Color"
+msgstr ""
+
+#: customizer/theme-options.php:864
+msgid "Elements Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:870
+msgid "Links Color"
+msgstr ""
+
+#: customizer/theme-options.php:873
+msgid "Links Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:876
+msgid "Custom Recent Posts - Link Color"
+msgstr ""
+
+#: customizer/theme-options.php:879
+msgid "Widget Title Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:888
+msgid "Widget Title Text Transform"
+msgstr ""
+
+#: customizer/theme-options.php:891
+msgid "Widget Title Text Size"
+msgstr ""
+
+#: customizer/theme-options.php:894
+msgid "Widget Title Letter Spacing"
+msgstr ""
+
+#: customizer/theme-options.php:897
+msgid "Widget Title Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:905
+msgid "Display Column"
+msgstr ""
+
+#: customizer/theme-options.php:926
+msgid "Contact Footer Text Color"
+msgstr ""
+
+#: customizer/theme-options.php:929
+msgid "Contact Footer Box Background 1"
+msgstr ""
+
+#: customizer/theme-options.php:932
+msgid "Contact Footer Box Background 2"
+msgstr ""
+
+#: customizer/theme-options.php:939
+msgid "Company Name 2020 - All Rights Reserved."
+msgstr ""
+
+#: customizer/theme-options.php:948
+msgid "Text Link Color"
+msgstr ""
+
+#: customizer/theme-options.php:951
+msgid "Text Link Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:954
+msgid "Top Border Color"
+msgstr ""
+
+#: customizer/theme-options.php:967
+msgid "Activate Google Fonts"
+msgstr ""
+
+#: customizer/theme-options.php:970
+msgid "Fonts Subsets"
+msgstr ""
+
+#: customizer/theme-options.php:973
+msgid "Cyrillic"
+msgstr ""
+
+#: customizer/theme-options.php:976
+msgid "Greek"
+msgstr ""
+
+#: customizer/theme-options.php:979
+msgid "Vietnamese"
+msgstr ""
+
+#: customizer/theme-options.php:988 customizer/theme-options.php:1003
+#: customizer/theme-options.php:1009 customizer/theme-options.php:1015
+#: customizer/theme-options.php:1021
+msgid "Font Family"
+msgstr ""
+
+#: customizer/theme-options.php:991 customizer/theme-options.php:1006
+#: customizer/theme-options.php:1012 customizer/theme-options.php:1018
+#: customizer/theme-options.php:1024
+msgid "Font Weight"
+msgstr ""
+
+#: customizer/theme-options.php:997
+msgid "Semi Bold"
+msgstr ""
+
+#: customizer/theme-options.php:1027
+msgid "Heading H1 - Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:1030
+msgid "Heading H2 - Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:1033
+msgid "Heading H3 - Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:1036
+msgid "Heading H4 - Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:1039
+msgid "Heading H5 - Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:1042
+msgid "Heading H6 - Font Size"
+msgstr ""
+
+#: customizer/theme-options.php:1045
+msgid "Heading H1 - Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:1048
+msgid "Heading H2 - Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:1051
+msgid "Heading H3 - Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:1054
+msgid "Heading H4 - Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:1057
+msgid "Heading H5 - Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:1060
+msgid "Heading H6 - Line Height"
+msgstr ""
+
+#: customizer/theme-options.php:1071
+msgid "Display Comments in Pages"
+msgstr ""
+
+#: customizer/theme-options.php:1082
+msgid "Blog Page Layout"
+msgstr ""
+
+#: customizer/theme-options.php:1085
+msgid "Featured Image Height (Only Number)"
+msgstr ""
+
+#: customizer/theme-options.php:1088
+msgid "Fullwidth Featured Image Height"
+msgstr ""
+
+#: customizer/theme-options.php:1097 functions/arrays.php:85
+#: plugins/meta-box-options.php:324 plugins/meta-box-options.php:522
+msgid "Revolution Slider"
+msgstr ""
+
+#: customizer/theme-options.php:1101
+msgid "Title Color"
+msgstr ""
+
+#: customizer/theme-options.php:1104
+msgid "Title Hover Color"
+msgstr ""
+
+#: customizer/theme-options.php:1110 customizer/theme-options.php:1169
+#: customizer/theme-options.php:1230
+msgid "Letter Spacing"
+msgstr ""
+
+#: customizer/theme-options.php:1120 customizer/theme-options.php:1179
+msgid "Date"
+msgstr ""
+
+#: customizer/theme-options.php:1123 customizer/theme-options.php:1182
+msgid "Author Name"
+msgstr ""
+
+#: customizer/theme-options.php:1126 customizer/theme-options.php:1185
+msgid "Category Names"
+msgstr ""
+
+#: customizer/theme-options.php:1129 customizer/theme-options.php:1201
+#: customizer/theme-options.php:1278
+msgid "Comments"
+msgstr ""
+
+#: customizer/theme-options.php:1134 customizer/theme-options.php:1190
+msgid "Views"
+msgstr ""
+
+#: customizer/theme-options.php:1137 customizer/theme-options.php:1193
+msgid "Likes"
+msgstr ""
+
+#: customizer/theme-options.php:1142
+msgid "Readmore Button Text"
+msgstr ""
+
+#: customizer/theme-options.php:1145
+msgid "Excerpt"
+msgstr ""
+
+#: customizer/theme-options.php:1148
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/theme-options.php:1152
+msgid "Select Sidebar Name"
+msgstr ""
+
+#: customizer/theme-options.php:1159
+msgid "Header Title Text"
+msgstr ""
+
+#: customizer/theme-options.php:1162
+msgid "Blog Page URL for Breadcrumbs"
+msgstr ""
+
+#: customizer/theme-options.php:1198
+msgid "Tags"
+msgstr ""
+
+#: customizer/theme-options.php:1205
+msgid "Author Bio"
+msgstr ""
+
+#: customizer/theme-options.php:1208
+msgid "Next Prev Post Pagination"
+msgstr ""
+
+#: customizer/theme-options.php:1211
+msgid "Post Comments"
+msgstr ""
+
+#: customizer/theme-options.php:1214 parts/related-posts.php:13
+msgid "Related Posts"
+msgstr ""
+
+#: customizer/theme-options.php:1217
+msgid "Display Column for Related Posts"
+msgstr ""
+
+#: customizer/theme-options.php:1220
+msgid "Number of Related Posts"
+msgstr ""
+
+#: customizer/theme-options.php:1272
+msgid "Portfolio Page Title for Breadcrumbs"
+msgstr ""
+
+#: customizer/theme-options.php:1275
+msgid "Portfolio Page URL for Breadcrumbs"
+msgstr ""
+
+#: customizer/theme-options.php:1289
+msgid "Open Social Sites in New Window"
+msgstr ""
+
+#: customizer/theme-options.php:1292
+msgid "Icon 1"
+msgstr ""
+
+#: customizer/theme-options.php:1295
+msgid "Icon 1 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1298
+msgid "Icon 2"
+msgstr ""
+
+#: customizer/theme-options.php:1301
+msgid "Icon 2 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1304
+msgid "Icon 3"
+msgstr ""
+
+#: customizer/theme-options.php:1307
+msgid "Icon 3 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1310
+msgid "Icon 4"
+msgstr ""
+
+#: customizer/theme-options.php:1313
+msgid "Icon 4 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1316
+msgid "Icon 5"
+msgstr ""
+
+#: customizer/theme-options.php:1319
+msgid "Icon 5 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1322
+msgid "Icon 6"
+msgstr ""
+
+#: customizer/theme-options.php:1325
+msgid "Icon 6 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1328
+msgid "Icon 7"
+msgstr ""
+
+#: customizer/theme-options.php:1331
+msgid "Icon 7 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1334
+msgid "Icon 8"
+msgstr ""
+
+#: customizer/theme-options.php:1337
+msgid "Icon 8 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1340
+msgid "Icon 9"
+msgstr ""
+
+#: customizer/theme-options.php:1343
+msgid "Icon 9 URL"
+msgstr ""
+
+#: customizer/theme-options.php:1346
+msgid "Icon 10"
+msgstr ""
+
+#: customizer/theme-options.php:1349
+msgid "Icon 10 URL"
+msgstr ""
+
+#: customizer/translations.php:13
+msgid ""
+"Add little dark color from primary background color to apply in tags hover, "
+"forms fields etc."
+msgstr ""
+
+#: customizer/translations.php:14 customizer/translations.php:15
+msgid ""
+"Border color for form borders, link list separator borders, tags borders etc."
+msgstr ""
+
+#: customizer/translations.php:16
+msgid "Apply when title style has border"
+msgstr ""
+
+#: customizer/translations.php:17
+msgid "Leave this field blank to hide Go Top link text"
+msgstr ""
+
+#: customizer/translations.php:18
+msgid "Body Fonts"
+msgstr ""
+
+#: customizer/translations.php:20 functions/register-menus.php:11
+msgid "Topbar Left"
+msgstr ""
+
+#: customizer/translations.php:21
+msgid "Header Height"
+msgstr ""
+
+#: customizer/translations.php:22
+msgid "Main Navigation Fonts"
+msgstr ""
+
+#: customizer/translations.php:23
+msgid "Sub Header Title Fonts"
+msgstr ""
+
+#: customizer/translations.php:24
+msgid "Widget Title Fonts"
+msgstr ""
+
+#: customizer/translations.php:25
+msgid "Headings Fonts"
+msgstr ""
+
+#: customizer/translations.php:26
+msgid "Sub Header - Height"
+msgstr ""
+
+#: customizer/translations.php:27
+msgid "Sub Header - Background"
+msgstr ""
+
+#: customizer/translations.php:28
+msgid "Sub Header Title"
+msgstr ""
+
+#: customizer/translations.php:30 customizer/translations.php:44
+#: customizer/translations.php:52
+msgid "Widget Title"
+msgstr ""
+
+#: customizer/translations.php:31
+msgid "Widget Typography"
+msgstr ""
+
+#: customizer/translations.php:33
+msgid "Mega Menu Title"
+msgstr ""
+
+#: customizer/translations.php:34
+msgid "Sub Header (If Blog as a Home)"
+msgstr ""
+
+#: customizer/translations.php:35 customizer/translations.php:38
+msgid "Post Title"
+msgstr ""
+
+#: customizer/translations.php:36 customizer/translations.php:39
+msgid "On/Off Post Meta"
+msgstr ""
+
+#: customizer/translations.php:37
+msgid "Archives Pages Options"
+msgstr ""
+
+#: customizer/translations.php:40
+msgid "On/Off Sections"
+msgstr ""
+
+#: customizer/translations.php:41
+msgid "Sections Title"
+msgstr ""
+
+#: customizer/translations.php:42
+msgid "Header Background"
+msgstr ""
+
+#: customizer/translations.php:47
+msgid "Title and Description"
+msgstr ""
+
+#: customizer/translations.php:49
+msgid "Content"
+msgstr ""
+
+#: customizer/translations.php:51
+msgid "Footer Column"
+msgstr ""
+
+#: customizer/translations.php:53
+msgid "Search Box"
+msgstr ""
+
+#: customizer/translations.php:54
+msgid "Content area between header and footer"
+msgstr ""
+
+#: customizer/translations.php:55
+msgid "Body Background"
+msgstr ""
+
+#: customizer/translations.php:57
+msgid "Styling, Typography"
+msgstr ""
+
+#: customizer/translations.php:59
+msgid "\"Sale\" Badge"
+msgstr ""
+
+#: customizer/translations.php:60
+msgid "Related Products"
+msgstr ""
+
+#: customizer/translations.php:61
+msgid "Up-Sells Products Column"
+msgstr ""
+
+#: customizer/translations.php:62
+msgid ""
+"Upload standard and retina logo. Retina logo should be double of standard "
+"logo. For example standard logo size is 100x50 then retina logo size should "
+"be 200x100. If you do not want to add retina logo then use standard logo in "
+"retina logo upload section."
+msgstr ""
+
+#: customizer/translations.php:63
+#, php-format
+msgid "Rererence icon site: :  %s"
+msgstr ""
+
+#: customizer/translations.php:64
+msgid ""
+"Add styles to section titles like Leave a Comment form in blog single page."
+msgstr ""
+
+#: customizer/translations.php:65
+msgid ""
+"If you are not using excerpt box to display summery text then you can "
+"control summery text from <strong>content</strong> text. If you are adding "
+"summery text in post excerpt section then it will display all excerpt "
+"content."
+msgstr ""
+
+#: customizer/translations.php:66
+msgid ""
+"Skin color will apply in small elements like buttons, scroll top arrow etc."
+msgstr ""
+
+#: customizer/translations.php:67
+msgid ""
+"Select your preferred sidebar for blog pages like archives, categories, "
+"author and tags etc."
+msgstr ""
+
+#: customizer/translations.php:68
+msgid ""
+"If \"Medium\", \"Semi-Bold\" and \"Bold\" options are available with "
+"selected body font family then you can enable it with below on/off options "
+"for various styles in site body text."
+msgstr ""
+
+#: customizer/translations.php:69
+msgid ""
+"If background direction is \"Angle\" then you can set degree from 0 to 360."
+msgstr ""
+
+#: customizer/translations.php:70
+msgid "Select column number to display thumanail images below large image"
+msgstr ""
+
+#: customizer/translations.php:71
+msgid ""
+"Add widget from Admin > Appearance > Widgets > Side Panel ( Right side "
+"widget box )."
+msgstr ""
+
+#: customizer/translations.php:72
+msgid ""
+"Add Social Media icon and links from Admin > Appearance > Customize > Social "
+"Media Icons section."
+msgstr ""
+
+#: customizer/translations.php:73
+msgid "Tablet and Mobile height is required for Header Style 1."
+msgstr ""
+
+#: customizer/translations.php:74
+msgid ""
+"Display Contact Info with Header Style 2. ( Customize > Header (Panel) > "
+"Header > \"Header Style\" Dropdown)"
+msgstr ""
+
+#: functions/arrays.php:21 functions/arrays.php:52
+msgid "On"
+msgstr ""
+
+#: functions/arrays.php:22 functions/arrays.php:53
+msgid "Off"
+msgstr ""
+
+#: functions/arrays.php:28
+msgid "None"
+msgstr ""
+
+#: functions/arrays.php:29
+msgid "Uppercase"
+msgstr ""
+
+#: functions/arrays.php:30
+msgid "Lowercase"
+msgstr ""
+
+#: functions/arrays.php:36 functions/arrays.php:51 functions/arrays.php:59
+#: functions/arrays.php:66 plugins/meta-box-options.php:28
+#: plugins/meta-box-options.php:137
+msgid "Default"
+msgstr ""
+
+#: functions/arrays.php:37
+msgid "Cover"
+msgstr ""
+
+#: functions/arrays.php:38
+msgid "Stretched"
+msgstr ""
+
+#: functions/arrays.php:39
+msgid "Repeat"
+msgstr ""
+
+#: functions/arrays.php:40
+msgid "Fixed Top"
+msgstr ""
+
+#: functions/arrays.php:41
+msgid "Fixed Center"
+msgstr ""
+
+#: functions/arrays.php:42
+msgid "Fixed Bottom"
+msgstr ""
+
+#: functions/arrays.php:43
+msgid "Repeat-x"
+msgstr ""
+
+#: functions/arrays.php:44
+msgid "Repeat-y"
+msgstr ""
+
+#: functions/arrays.php:45
+msgid "Inherit"
+msgstr ""
+
+#: functions/arrays.php:60 functions/arrays.php:67
+msgid "Custom"
+msgstr ""
+
+#: functions/arrays.php:68
+msgid "No Padding"
+msgstr ""
+
+#: functions/arrays.php:74
+msgid "Title Center"
+msgstr ""
+
+#: functions/arrays.php:75
+msgid "Title Left"
+msgstr ""
+
+#: functions/arrays.php:76
+msgid "Title Right"
+msgstr ""
+
+#: functions/arrays.php:77
+msgid "Title Left - Breadcrumbs Right"
+msgstr ""
+
+#: functions/arrays.php:78
+msgid "Title Right - Breadcrumbs Left "
+msgstr ""
+
+#: functions/arrays.php:91 plugins/meta-box-options.php:29
+msgid "Content Left - Sidebar Right"
+msgstr ""
+
+#: functions/arrays.php:92 plugins/meta-box-options.php:30
+msgid "Content Right - Sidebar Left"
+msgstr ""
+
+#: functions/arrays.php:93 plugins/meta-box-options.php:31
+msgid "No Sidebar"
+msgstr ""
+
+#: functions/arrays.php:94 plugins/meta-box-options.php:32
+msgid "100% Width - Full Screen"
+msgstr ""
+
+#: functions/arrays.php:100
+msgid "No Shadow"
+msgstr ""
+
+#: functions/arrays.php:101
+msgid "Light Shadow"
+msgstr ""
+
+#: functions/arrays.php:102
+msgid "Medium Shadow"
+msgstr ""
+
+#: functions/arrays.php:103
+msgid "Dark Shadow"
+msgstr ""
+
+#: functions/arrays.php:131
+msgid "Style - 1: Logo Center, Menu Center"
+msgstr ""
+
+#: functions/arrays.php:132
+msgid "Style - 2: Logo Left, Menu Left"
+msgstr ""
+
+#: functions/arrays.php:133
+msgid "Style - 3: Logo Left, Menu Left (Wide Menu)"
+msgstr ""
+
+#: functions/arrays.php:134
+msgid "Style - 4: Logo Center, Menu Center (Wide Menu)"
+msgstr ""
+
+#: functions/arrays.php:140
+msgid "Solid"
+msgstr ""
+
+#: functions/arrays.php:141
+msgid "Dashed"
+msgstr ""
+
+#: functions/arrays.php:142
+msgid "Dotted"
+msgstr ""
+
+#: functions/arrays.php:143
+msgid "Double"
+msgstr ""
+
+#: functions/arrays.php:149
+msgid "Nothing"
+msgstr ""
+
+#: functions/arrays.php:150
+msgid "Tablet"
+msgstr ""
+
+#: functions/arrays.php:151
+msgid "Mobile"
+msgstr ""
+
+#: functions/breadcrumbs.php:20
+msgid "Home"
+msgstr ""
+
+#: functions/breadcrumbs.php:368
+msgid "g:i a"
+msgstr ""
+
+#: functions/breadcrumbs.php:370
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: functions/breadcrumbs.php:370
+msgid "i"
+msgstr ""
+
+#: functions/breadcrumbs.php:372
+msgid "g a"
+msgstr ""
+
+#: functions/breadcrumbs.php:385 functions/breadcrumbs.php:391
+#: functions/breadcrumbs.php:396 functions/breadcrumbs.php:401
+#: functions/breadcrumbs.php:456
+msgid "Y"
+msgstr ""
+
+#: functions/breadcrumbs.php:386 functions/breadcrumbs.php:397
+#: functions/breadcrumbs.php:460
+msgid "F"
+msgstr ""
+
+#: functions/breadcrumbs.php:387 functions/breadcrumbs.php:464
+msgid "d"
+msgstr ""
+
+#: functions/breadcrumbs.php:392
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: functions/breadcrumbs.php:392
+msgid "W"
+msgstr ""
+
+#: functions/breadcrumbs.php:408
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: functions/breadcrumbs.php:413
+msgid "404 Error"
+msgstr ""
+
+#: functions/breadcrumbs.php:460
+msgid "F Y"
+msgstr ""
+
+#: functions/breadcrumbs.php:464
+msgid "F j, Y"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:51
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:55
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:82
+msgid "sub item"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:114
+msgid "Edit"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:123
+msgid "URL"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:130
+msgid "Navigation Label"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:136
+msgid "Title Attribute"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:143
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:148
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:154
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:160
+msgid "Description"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:162
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:170
+msgid "Icon"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:173
+#, php-format
+msgid "Enter icon name. %1$s to get Solid Icons Reference Page."
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:174
+msgid ""
+"For Regular and Brands icons add \"regular\" or \"brands\" word next to icon "
+"name . ( e.g \"clock regular\", \"twitter brands\")"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:185
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:193
+msgid "Mega Menu - Number of columns: "
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:204
+msgid "Mega Menu - Background image"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:206
+msgid "Select"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:212
+msgid "Mega Menu - Background Image Position: "
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:228
+msgid "Column width"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:236
+msgid "Do not add link on this Mega menu columns title"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:243
+msgid "Do not show this Mega menu column title"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:254
+msgid "Move"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:255
+msgid "Up one"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:256
+msgid "Down one"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:259
+msgid "To the top"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:266
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:279
+msgid "Remove"
+msgstr ""
+
+#: functions/megamenu/edit-megamenu-walker-class.php:280
+msgid "Cancel"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:19
+msgid "Left Top"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:20
+msgid "Left Center"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:21
+msgid "Left Bottom"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:22
+msgid "Center Top"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:23
+msgid "Center Bottom"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:24
+msgid "Center Center"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:25
+msgid "Right Top"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:26
+msgid "Right Center"
+msgstr ""
+
+#: functions/megamenu/megamenu.class.php:27
+msgid "Right Bottom"
+msgstr ""
+
+#: functions/register-menus.php:10
+msgid "Main Navigation"
+msgstr ""
+
+#: functions/register-menus.php:12
+msgid "Topbar Right"
+msgstr ""
+
+#: functions/register-menus.php:13
+msgid "Footer Menu"
+msgstr ""
+
+#: functions/register-widgets.php:7
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions/register-widgets.php:9
+msgid "Sidebar for blog section"
+msgstr ""
+
+#: functions/register-widgets.php:17
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions/register-widgets.php:27
+msgid "Sidebar for right side hidden Side Panel. "
+msgstr ""
+
+#: functions/register-widgets.php:36
+msgid "Search Page Sidebar"
+msgstr ""
+
+#: functions/register-widgets.php:38
+msgid "Sidebar for search pages"
+msgstr ""
+
+#: functions/register-widgets.php:46
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions/register-widgets.php:57
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions/register-widgets.php:75
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions/register-widgets.php:88
+msgid "Footer Column 4"
+msgstr ""
+
+#: functions/register-widgets.php:101
+msgid "Footer Column 5"
+msgstr ""
+
+#: functions/theme-filters.php:16 functions/theme-filters.php:19
+#: functions/theme-filters.php:22
+#, php-format
+msgid "Archive: %s"
+msgstr ""
+
+#: functions/theme-filters.php:25
+msgid "Author Archives"
+msgstr ""
+
+#: functions/theme-filters.php:35
+msgid "Error Page"
+msgstr ""
+
+#: functions/theme-filters.php:250
+msgid "0 Comments"
+msgstr ""
+
+#: functions/theme-filters.php:252
+msgid " Comments"
+msgstr ""
+
+#: functions/theme-filters.php:254
+msgid "1 Comment"
+msgstr ""
+
+#: functions/theme-filters.php:326
+msgid "Prev"
+msgstr ""
+
+#: functions/theme-filters.php:329
+msgid "Next"
+msgstr ""
+
+#: functions/theme-filters.php:485
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: functions/theme-filters.php:486
+msgid "Password:"
+msgstr ""
+
+#: functions/theme-filters.php:486
+msgid "Submit"
+msgstr ""
+
+#: functions/theme-filters.php:522
+msgid "Prev Post"
+msgstr ""
+
+#: functions/theme-filters.php:529
+msgid "Next Post"
+msgstr ""
+
+#: functions/theme-filters.php:559
+msgid "Next Page "
+msgstr ""
+
+#: functions/theme-filters.php:560
+msgid "Previous Page "
+msgstr ""
+
+#: functions/theme-filters.php:591
+msgid "Write Comment"
+msgstr ""
+
+#: functions/theme-filters.php:599
+msgid "Full Name *"
+msgstr ""
+
+#: functions/theme-filters.php:600
+msgid "Email Address *"
+msgstr ""
+
+#: functions/theme-functions.php:150
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions/theme-functions.php:153
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: functions/theme-functions.php:160
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/theme-functions.php:165
+msgid " (Edit)"
+msgstr ""
+
+#: functions/theme-functions.php:191
+msgid "Pingback:"
+msgstr ""
+
+#: functions/theme-functions.php:191
+msgid "(Edit)"
+msgstr ""
+
+#: parts/posts/post-author.php:33
+msgid "About"
+msgstr ""
+
+#: parts/posts/post-author.php:40
+msgid "Website"
+msgstr ""
+
+#: parts/posts/post-list.php:52 parts/posts/post-single.php:52
+msgid " Views"
+msgstr ""
+
+#: parts/posts/post-list.php:59 parts/posts/post-single.php:59
+msgid " Likes"
+msgstr ""
+
+#: parts/posts/post-list.php:68 parts/posts/post-single.php:68
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: plugins/meta-box-options.php:86
+msgid "Post Format Options"
+msgstr ""
+
+#: plugins/meta-box-options.php:92
+msgid "Add YouTube video Embed code"
+msgstr ""
+
+#: plugins/meta-box-options.php:93
+msgid "Default embed video width - 616"
+msgstr ""
+
+#: plugins/meta-box-options.php:100
+msgid "Audio Embed code"
+msgstr ""
+
+#: plugins/meta-box-options.php:108
+msgid "Galley Post Format Images"
+msgstr ""
+
+#: plugins/meta-box-options.php:124
+msgid "Page Options"
+msgstr ""
+
+#: plugins/meta-box-options.php:138
+msgid "Full Width"
+msgstr ""
+
+#: plugins/meta-box-options.php:139
+msgid "Boxed"
+msgstr ""
+
+#: plugins/meta-box-options.php:145
+msgid "Display Top Bar"
+msgstr ""
+
+#: plugins/meta-box-options.php:154
+msgid "Display Main Header"
+msgstr ""
+
+#: plugins/meta-box-options.php:163
+msgid "Display Widget Footer"
+msgstr ""
+
+#: plugins/meta-box-options.php:172
+msgid "Display Contact Footer"
+msgstr ""
+
+#: plugins/meta-box-options.php:181
+msgid "Display Small Footer"
+msgstr ""
+
+#: plugins/meta-box-options.php:190
+msgid "Page Content"
+msgstr ""
+
+#: plugins/meta-box-options.php:209
+msgid "Page Content Top and Bottom Padding"
+msgstr ""
+
+#: plugins/meta-box-options.php:218
+msgid "Page Content Top Padding (Desktop)"
+msgstr ""
+
+#: plugins/meta-box-options.php:231
+msgid "Page Content Bottom Padding (Desktop)"
+msgstr ""
+
+#: plugins/meta-box-options.php:244
+msgid "Page Content Top Padding (Tablet)"
+msgstr ""
+
+#: plugins/meta-box-options.php:257
+msgid "Page Content Bottom Padding (Tablet)"
+msgstr ""
+
+#: plugins/meta-box-options.php:270
+msgid "Page Content Top Padding (Mobile)"
+msgstr ""
+
+#: plugins/meta-box-options.php:283
+msgid "Page Content Bottom Padding (Mobile)"
+msgstr ""
+
+#: plugins/meta-box-options.php:296
+msgid "Sub Header (Hero Banner)"
+msgstr ""
+
+#: plugins/meta-box-options.php:301
+msgid "Display Sub Header"
+msgstr ""
+
+#: plugins/meta-box-options.php:311
+msgid "Sub Header Options"
+msgstr ""
+
+#: plugins/meta-box-options.php:317
+msgid "Sub Header Display Style"
+msgstr ""
+
+#: plugins/meta-box-options.php:323
+msgid "Standard - Title with Background"
+msgstr ""
+
+#: plugins/meta-box-options.php:371
+msgid ""
+"If you do not want to upload background image then add background color value"
+msgstr ""
+
+#: plugins/meta-box-options.php:379
+msgid ""
+"Upload background image to display in this page (recommended size : "
+"1920x400) Note: Only upload/add single image"
+msgstr ""
+
+#: plugins/meta-box-options.php:397
+msgid "Display Title"
+msgstr ""
+
+#: plugins/meta-box-options.php:421
+msgid "Title Text Size (Desktop)"
+msgstr ""
+
+#: plugins/meta-box-options.php:433
+msgid "Title Text Size (Tablet)"
+msgstr ""
+
+#: plugins/meta-box-options.php:445
+msgid "Title Text Size (Mobile)"
+msgstr ""
+
+#: plugins/meta-box-options.php:470
+msgid "Display Breadcrumbs"
+msgstr ""
+
+#: plugins/meta-box-options.php:480
+msgid "Breadcrumbs Text Size"
+msgstr ""
+
+#: plugins/meta-box-options.php:515
+msgid "Breadcrumbs Icon Color"
+msgstr ""
+
+#: plugins/one-click-demo-import/swm-one-click-demo-import.php:156
+msgid "One Click Demo Import"
+msgstr ""
+
+#: plugins/one-click-demo-import/swm-one-click-demo-import.php:157
+msgid "Import Demo Data"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:908
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3661
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3240
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3033
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:597
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:598
+msgid "Update Required"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:715
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1015
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1015
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1018
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1018
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2063
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2354
+msgid "Required"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2357
+msgid "Recommended"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2373
+msgid "WordPress Repository"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2376
+msgid "External Source"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2379
+msgid "Pre-Packaged"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Not Installed"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2402
+msgid "Active"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2408
+msgid "Required Update not Available"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2411
+msgid "Requires Update"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2414
+msgid "Update recommended"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2423
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2473
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2563
+msgid "unknown"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2571
+msgid "Installed version:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2579
+msgid "Minimum required version:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2591
+msgid "Available version:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2628
+msgid "Plugin"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2629
+msgid "Source"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2630
+msgid "Type"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2634
+msgid "Version"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2635
+msgid "Status"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2689
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2695
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2765
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2798
+msgid "Install"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2804
+msgid "Update"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2807
+msgid "Activate"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2838
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2840
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2881
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2883
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2989
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3015
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3239
+msgid "Plugin activation failed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3579
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3582
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3584
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3588
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3590
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3590
+msgid "Show Details"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3590
+msgid "Hide Details"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3591
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3593
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3596
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3598
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3599
+msgid "All installations have been completed."
+msgstr ""
+
+#: plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: search.php:25 search.php:95
+#, php-format
+msgid "- Search Results For %1$s"
+msgstr ""
+
+#: search.php:101
+msgid "If you're not happy with the results, please do another search."
+msgstr ""
+
+#: single.php:56
+msgid "Tags:"
+msgstr ""

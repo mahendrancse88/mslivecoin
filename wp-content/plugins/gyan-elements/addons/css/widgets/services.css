@@ -1,0 +1,304 @@
+.gyan-services-title-section,
+.gyan-services-title-icon,
+.gyan-services-overlay,
+.gyan-services-overlay-icon {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.gyan-services-container {
+	display: block;
+}
+
+.gyan-services-items {
+	display: block;
+	position: relative;
+}
+
+.gyan-services {
+	position: relative;
+}
+
+.gyan-services-title-section {
+	z-index: 2;
+}
+
+.gyan-services-title-align-left .gyan-services-title-section {
+	text-align: left;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.gyan-services-overlay-align-left .gyan-services-overlay {
+	text-align: left;
+	align-items: flex-start;
+}
+
+.gyan-services-image {
+	position: relative;
+}
+
+.gyan-services-image img {
+	width: 100%;
+	z-index: 0;
+	display: block;
+}
+
+.gyan-services-img-overlay-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	opacity: 0;
+}
+
+.gyan-services:hover .gyan-services-img-overlay-bg {
+	opacity: 1;
+}
+
+.gyan-services-button-icon.gyan-icon i,
+.gyan-services-title-icon i,
+.gyan-services-overlay-icon i {
+	line-height: 1em;
+}
+
+.gyan-services-title-icon svg,
+.gyan-services-overlay-icon svg {
+	height: 1em;
+	width: 1em;
+}
+
+.gyan-services-overlay {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+}
+
+.gyan-services:hover .gyan-services-overlay {
+	opacity: 1;
+}
+
+.gyan-services {
+	overflow: hidden;
+}
+
+.gyan-services-st-1 .gyan-services-title-section,
+.gyan-services-st-4 .gyan-services-title-section {
+	flex-direction: row;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 1;
+}
+
+.gyan-services-title-sec-t .gyan-services-title-section {
+	top: 0;
+	bottom: auto;
+}
+
+.gyan-services-title-sec-m .gyan-services-title-section {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	bottom: auto;
+}
+
+.gyan-services-st-1 .gyan-services:hover .gyan-services-title-section {
+	bottom: -100%;
+	opacity: 0;
+}
+
+.gyan-services-title-sec-t .gyan-services-st-1 .gyan-services:hover .gyan-services-title-section {
+	top: -100%;
+	opacity: 0;
+}
+
+.gyan-services-title-sec-m .gyan-services-st-1 .gyan-services:hover .gyan-services-title-section {
+	left: -100%;
+	opacity: 0;
+}
+
+.gyan-overlay-animation-sb .gyan-services-overlay {
+	top: -100%;
+}
+
+.gyan-overlay-animation-sb .gyan-services:hover .gyan-services-overlay {
+	top: 0;
+}
+
+.gyan-overlay-animation-st .gyan-services-overlay {
+	bottom: -100%;
+}
+
+.gyan-overlay-animation-st .gyan-services:hover .gyan-services-overlay {
+	bottom: 0;
+}
+
+.gyan-overlay-animation-sr .gyan-services-overlay {
+	left: -100%;
+	width: 100%;
+}
+
+.gyan-overlay-animation-sr .gyan-services:hover .gyan-services-overlay {
+	left: 0;
+}
+
+.gyan-overlay-animation-sl .gyan-services-overlay {
+	right: -100%;
+	width: 100%;
+	left: auto;
+}
+
+.gyan-overlay-animation-sl .gyan-services:hover .gyan-services-overlay {
+	right: 0;
+}
+
+.gyan-overlay-animation-slr .gyan-services-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.4s ease;
+	transition: -webkit-transform 0.4s ease;
+	transition: transform 0.4s ease;
+	transition: transform 0.4s ease;
+	-webkit-transform: scale(0, 1);
+	-ms-transform: scale(0, 1);
+	transform: scale(0, 1);
+	-webkit-transform-origin: right center;
+	-ms-transform-origin: right center;
+	transform-origin: right center;
+}
+
+.gyan-overlay-animation-slr .gyan-services:hover .gyan-services-overlay {
+	-webkit-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-transform-origin: left center;
+	-ms-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.gyan-services-st-2 .gyan-services-all-content {
+	overflow: hidden;
+	position: relative;
+}
+
+.gyan-services-st-2 .gyan-services-title-section {
+	flex-direction: row;
+}
+
+.gyan-services-st-3 .gyan-services-overlay {
+	position: absolute;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	top: auto;
+	opacity: 1;
+}
+
+.gyan-services-st-4 .gyan-services {
+	overflow: visible;
+	position: relative;
+	width: 100%;
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
+}
+
+.gyan-services-st-4 .gyan-services-overlay {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	right: auto;
+	bottom: auto;
+}
+
+.gyan-services-st-4 .gyan-services-front,
+.gyan-services-st-4 .gyan-services-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	overflow: hidden;
+	transition: 0.5s;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.gyan-services-st-4 .gyan-services-front {
+	transform: rotateY(0deg);
+}
+
+.gyan-services-st-4 .gyan-services-back {
+	transform: rotateY(-180deg);
+}
+
+.gyan-services-st-4 .gyan-services:hover .gyan-services-front {
+	transform: rotateY(180deg);
+}
+
+.gyan-services-st-4 .gyan-services:hover .gyan-services-back {
+	transform: rotateY(0deg);
+}
+
+.gyan-services-flip-vr .gyan-services-st-4 .gyan-services-front {
+	transform: rotateX(0deg);
+}
+
+.gyan-services-flip-vr .gyan-services-st-4 .gyan-services-back {
+	transform: rotateX(-180deg);
+}
+
+.gyan-services-flip-vr .gyan-services-st-4 .gyan-services:hover .gyan-services-front {
+	transform: rotateX(180deg);
+}
+
+.gyan-services-flip-vr .gyan-services-st-4 .gyan-services:hover .gyan-services-back {
+	transform: rotateX(0deg);
+}
+
+.gyan-services h1.gyan-services-title,
+.gyan-services h2.gyan-services-title,
+.gyan-services h3.gyan-services-title,
+.gyan-services h4.gyan-services-title,
+.gyan-services h5.gyan-services-title,
+.gyan-services h6.gyan-services-title {
+	margin-bottom: 0;
+}
+
+a.gyan-services-button {
+	align-items: center;
+	justify-content: center;
+}
+
+a.gyan-services-button i,
+a.gyan-services-button svg {
+	float: left;
+}

@@ -1,0 +1,53 @@
+.gyan-small-info-box,
+.gyan-small-infobox-icon-holder {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.gyan-small-info-box {
+	padding: 30px;
+}
+
+.gyan-small-infobox-icon-holder {
+	z-index: 2;
+	overflow: hidden;
+}
+
+.gyan-small-infobox-align-left .gyan-small-info-box {
+	align-items: flex-start;
+	text-align: left;
+}
+
+.gyan-small-infobox-align-right .gyan-small-info-box {
+	align-items: flex-end;
+	text-align: right;
+}
+
+a.gyan-small-infobox-over-link,
+.gyan-small-infobox-icon-holder > a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 5;
+}
+
+.gyan-small-infobox-title,
+.gyan-small-infobox-subtitle {
+	z-index: 3;
+	clear: both;
+}
+
+.gyan-small-info-box .gyan-icon i,
+.gyan-small-info-box .gyan-icon svg {
+	float: left;
+}

@@ -1,0 +1,215 @@
+/* 1. General*/
+
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+#setting-error-tgmpa {
+	display: block;
+}
+
+hr {
+	border: none 0;
+	outline: 0;
+	height: 1px;
+	clear: both;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.ocdi__import-mode-switch {
+	display: none;
+}
+
+
+/* 2. Metabox */
+
+.swm-meta-box-post-format textarea {
+	width: 100%;
+}
+
+.swm-meta-box-post-format input.size-small {
+	width: 100px;
+}
+
+.swm-meta-box-post-format input.checkbox-list {
+	width: auto;
+	margin-right: 5px;
+}
+
+.swm-meta-box-post-format label {
+	font-weight: bold;
+}
+
+.swm-meta-box-post-format small,
+#swm-meta-box-standard small {
+	font-size: 11px;
+	color: #606060;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.swm-meta-box-post-format select.swm-metabox-select {
+	float: left;
+	width: 230px;
+}
+
+.swm-meta-box-post-format label.swm-metabox-select-label {
+	float: left;
+	width: 250px;
+}
+
+.swm-meta-box-post-format label.swm-metabox-select-label small {
+	color: #606060;
+	font-size: 11px;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+
+.rwmb-divider-wrapper hr {
+	border: none;
+	border-top: 1px dashed #ddd;
+	margin: 20px 0;
+}
+
+.rwmb-heading-wrapper h4 {
+	display: block;
+	font-size: .75rem;
+	line-height: 1.4;
+	border: 0;
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: .75rem 0 .5rem 5px;
+	margin: 15px 0 20px 0;
+}
+
+.rwmb-heading-wrapper h4:before {
+	speak: none;
+	left: 0;
+	float: left;
+	display: inline-block;
+	padding: 0 3px 0 0;
+	text-indent: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: '\f139';
+	font: 400 16px/1 dashicons;
+	margin-top: -2px;
+}
+
+#post-body .rwmb-select {
+	min-width: 300px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	padding: 6px;
+}
+
+#post-body input.rwmb-text,
+.rwmb-slider .ui-slider-range {
+	min-width: 300px;
+}
+
+#post-body input.rwmb-text {
+	font-size: 11px;
+	padding: 7px;
+}
+
+.rwmb-field {
+	margin-bottom: 25px;
+}
+
+.rwmb-input p.description {
+	font-size: 12px;
+	font-style: normal;
+}
+
+.rwmb-field.rwmb-checkbox-wrapper input,
+.rwmb-field.rwmb-checkbox-wrapper p.description {
+	width: auto;
+	display: inline-block;
+}
+
+.rwmb-field.rwmb-checkbox-wrapper p.description {
+	padding-left: 5px;
+}
+
+ul.rw-taxonomy-tree {
+	margin: 0;
+}
+
+ul.rw-taxonomy-tree li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.rwmb-slider {
+	display: inline-block;
+	vertical-align: middle;
+	width: 300px;
+}
+
+.rwmb-radio-wrapper label {
+	margin-right: 10px;
+}
+
+.rwmb-radio-wrapper input[type=radio] {
+	margin-right: 1px;
+}
+
+.rwmb-choice-list li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.edit-post-meta-boxes-area #poststuff h2.hndle {
+	border: 1px solid #e2e4e7;
+	margin-top: -1px;
+	background: #f3f4f5;
+}
+
+.postbox button.handlediv {
+	position: relative;
+	z-index: 1;
+}
+
+ul.rwmb-button-input-list.rwmb-inline {
+	margin: 7px 0;
+}
+
+.rwmb-field.rwmb-button_group-wrapper {
+	margin: 7px 0;
+}
+
+.rwmb-field.bizp-meta-padding-50 {
+	margin-bottom: 35px;
+}
+
+#post-body .rwmb-input .rwmb-select {
+	height: 40px;
+}
+
+.rwmb-select.rwmb-select {
+	padding: 6px;
+}
+
+
+/* 3. Revolution Slider */
+
+div.rs-update-notice-wrap {
+	display: none !important;
+}
+#revslider-update { display:none; }

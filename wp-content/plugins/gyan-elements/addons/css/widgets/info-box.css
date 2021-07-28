@@ -1,0 +1,290 @@
+.elementor .gyan-infobox-number-circle {
+  display: block;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 100%;
+  box-sizing: content-box;
+}
+
+.gyan-info-box,
+.gyan-infobox-icon-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.gyan-infobox-content-holder,
+.gyan-infobox-button-type-icon_box a.gyan-info-box-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.gyan-info-box,
+.gyan-infobox-icon-holder {
+  z-index: 3;
+}
+
+.gyan-infobox-align-left .gyan-info-box {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.gyan-infobox-align-right .gyan-info-box {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.gyan-infobox-align-right .gyan-infobox-content-holder {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.gyan-infobox-align-left .gyan-infobox-content-holder {
+  text-align: left;
+  align-items: flex-start;
+}
+
+a.gyan-infobox-over-link,
+.gyan-infobox-icon-holder > a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 5;
+}
+
+.gyan-infobox-line-separator {
+  display: inline-block;
+  position: relative;
+}
+
+.gyan-infobox-icon.gyan-icon,
+.gyan-infobox-button-type-icon_box a.gyan-info-box-button .gyan-icon {
+  line-height: 0;
+}
+
+.gyan-infobox-title,
+.gyan-infobox-content,
+.gyan-infobox-content-holder,
+.gyan-infobox-line-separator,
+a.gyan-info-box-button {
+  z-index: 3;
+  clear: both;
+}
+
+a.gyan-info-box-button {
+  display: inline-block;
+  padding: 8px 20px;
+}
+
+.gyan-infobox-button-icon {
+  margin-left: 10px;
+}
+
+.gyan-infobox-content-holder {
+  flex-direction: column;
+}
+
+.gyan-infobox-button-type-icon_box .gyan-infobox-button-icon {
+  margin: 0;
+}
+
+.gyan-infobox-position-left .gyan-infobox-icon-holder,
+.gyan-infobox-position-right .gyan-infobox-icon-holder {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.gyan-infobox-position-left .gyan-infobox-content-holder,
+.gyan-infobox-position-right .gyan-infobox-content-holder {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.gyan-infobox-position-left .gyan-infobox-content-holder {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.gyan-infobox-position-right .gyan-infobox-content-holder {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.gyan-infobox-position-left .gyan-info-box {
+  text-align: left;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.gyan-infobox-position-right .gyan-info-box {
+  text-align: right;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.gyan-infobox-position-left .gyan-info-box,
+.gyan-infobox-position-right .gyan-info-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gyan-infobox-position-right .gyan-infobox-title,
+.gyan-infobox-position-right .gyan-infobox-content,
+.gyan-infobox-position-right .gyan-infobox-line-separator,
+.gyan-infobox-position-right .gyan-info-box-button {
+  float: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .gyan-infobox-position-left.gyan-infobox-center-yes .gyan-infobox-content-holder {
+    text-align: center;
+    align-items: center;
+  }
+
+  .gyan-infobox-position-right.gyan-infobox-center-yes .gyan-infobox-content-holder {
+    text-align: center;
+    align-items: center;
+  }
+
+  .gyan-infobox-position-left.gyan-infobox-center-yes .gyan-info-box {
+    text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gyan-infobox-position-right.gyan-infobox-center-yes .gyan-info-box {
+    text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gyan-infobox-position-right.gyan-infobox-center-yes .gyan-infobox-title,
+  .gyan-infobox-position-right.gyan-infobox-center-yes .gyan-infobox-content,
+  .gyan-infobox-position-right.gyan-infobox-center-yes .gyan-infobox-line-separator,
+  .gyan-infobox-position-right.gyan-infobox-center-yes .gyan-info-box-button {
+    float: none;
+  }
+}
+
+.gyan-infobox-fullwidth-button-yes .gyan-info-box-button {
+  width: 100%;
+  text-align: center;
+}
+
+/*animation*/
+
+.gyan-infobox-icon-holder {
+  transform: rotate(0deg);
+}
+
+.gyan-hover-animation-rotate-90 .gyan-info-box:hover .gyan-infobox-icon-holder {
+  transform: rotate(90deg);
+}
+
+.gyan-hover-animation-rotate-180 .gyan-info-box:hover .gyan-infobox-icon-holder {
+  transform: rotate(180deg);
+}
+
+.gyan-hover-animation-rotate-360 .gyan-info-box:hover .gyan-infobox-icon-holder {
+  transform: rotate(360deg);
+}
+
+.gyan-hover-animation-rotate .gyan-info-box:hover .gyan-infobox-icon-holder {
+  animation-name: gyan-animation-rotate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes gyan-animation-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.gyan-hover-animation-scale .gyan-info-box:hover .gyan-infobox-icon-holder {
+  transform: scale(1.2);
+}
+
+.gyan-hover-animation-flip .gyan-info-box:hover .gyan-infobox-icon-holder {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.gyan-hover-animation-hang .gyan-info-box:hover .gyan-infobox-icon-holder {
+  animation-name: gyan-animation-hang;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.gyan-hover-animation-pulse .gyan-info-box:hover .gyan-infobox-icon-holder {
+  animation-name: gyan-animation-pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.gyan-hover-animation-wiggle .gyan-info-box:hover .gyan-infobox-icon-holder {
+  animation: gyan-animation-wiggle 75ms infinite;
+  animation-timing-function: linear;
+}
+
+.gyan-hover-animation-shake .gyan-info-box:hover .gyan-infobox-icon-holder {
+  animation: gyan-animation-shake 75ms infinite;
+  animation-timing-function: linear;
+}

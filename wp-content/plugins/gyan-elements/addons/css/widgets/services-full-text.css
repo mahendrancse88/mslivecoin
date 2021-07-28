@@ -1,0 +1,92 @@
+.gyan-services-full-icon-wrap,
+.gyan-services-full-button-text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.gyan-services-full-img {
+	position: relative;
+}
+
+.gyan-services-full-content {
+	display: block;
+	position: relative;
+}
+
+.gyan-services-full-icon-wrap {
+	position: absolute;
+	border-radius: 100%;
+	top: 0;
+	right: 14px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.gyan-services-full-icon-wrap .gyan-icon {
+	line-height: 0;
+}
+
+.gyan-services-full-button {
+	min-height: 54px;
+	padding-left: 25px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.gyan-services-full-button:before {
+	content: '';
+	position: absolute;
+	top: -160px;
+	right: -485px;
+	width: 600px;
+	height: 400px;
+	transform: rotateZ(-55deg);
+	display: block;
+	z-index: 2;
+}
+
+.gyan-services-full-button-text {
+	z-index: 4;
+}
+
+.gyan-services-full-button-arrow {
+	position: absolute;
+	top: 50%;
+	right: 17px;
+	width: 33px;
+	z-index: 5;
+}
+
+.gyan-services-full-button-arrow:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-width: 5px 0 5px 7px;
+	border-style: solid;
+	display: block;
+	margin-top: -4px;
+	float: right;
+}
+
+.gyan-services-full-button-arrow:after {
+	content: '';
+	display: block;
+	width: 30px;
+	height: 2px;
+	margin-top: -6px;
+	float: right;
+	margin-right: 5px;
+}
+
+.gyan-services-full-wrap {
+	display: block;
+}

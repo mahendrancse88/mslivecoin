@@ -1,0 +1,115 @@
+#widgets-right .sidebar-gyan-custom .widgets-sortables {
+	padding-bottom: 45px
+}
+
+#widgets-right .sidebar-gyan-custom.closed .widgets-sortables {
+	padding-bottom: 0
+}
+
+#widgets-right .sidebar-gyan-custom.closed .widgets-sortables .gyan-widget-box-bottom {
+	display: none
+}
+
+#gyan-add-sidebar {
+	margin: 10px 0 0;
+	position: relative;
+	padding: 0 15px
+}
+
+#gyan-add-sidebar .sidebar-name h3 {
+	padding: 15px 7px 15px 0;
+	font-size: 1.3em;
+	margin-top: 5px
+}
+
+#gyan-add-sidebar .widget-content {
+	width: 80%;
+	display: inline-block;
+	float: left
+}
+
+#gyan-add-sidebar .widget-control-actions {
+	width: 20%;
+	display: inline-block;
+	float: left;
+	padding-top: 3px
+}
+
+#add-new-sidebar-form {
+	padding-bottom: 10px
+}
+
+#gyan-add-sidebar-input {
+	max-width: 98%;
+	padding: 8px;
+	margin-bottom: 14px;
+	margin-top: 3px;
+	min-height: 35px;
+	line-height: 1
+}
+
+.gyan-widget-box-bottom {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	border-top: 1px dashed #ddd
+}
+
+.gyan-widget-box-bottom>div {
+	padding: 8px 8px 0
+}
+
+.gyan-widget-box-bottom .gyan-custom-sidebar-id {
+	display: block;
+	float: left;
+	max-width: 48%;
+	overflow: hidden;
+	position: relative;
+	top: -6px
+}
+
+.gyan-widget-box-bottom .gyan-custom-sidebar-buttons {
+	float: right
+}
+
+.gyan-widget-box-bottom .description {
+	padding: 0!important;
+	margin: 0!important
+}
+
+.gyan-widget-box-bottom .gyan-custom-sidebar-delete.button-secondary {
+	display: block;
+	float: right;
+	margin: 0;
+	color: #a00
+}
+
+.gyan-widget-box-bottom .gyan-custom-sidebar-delete-confirm.button-primary {
+	display: none;
+	float: right;
+	margin: 0 5px 0 0
+}
+
+.gyan-widget-box-bottom .gyan-custom-sidebar-delete-cancel.button-secondary {
+	display: none;
+	float: right;
+	margin: 0
+}
+
+.add-new-sidebar-button.button-primary {
+	width: 100%;
+	height: 34px;
+	line-height: 34px
+}
+
+.activate_spinner {
+	display: block!important;
+	position: absolute;
+	top: 10px;
+	right: 4px;
+	background-color: #ececec
+}

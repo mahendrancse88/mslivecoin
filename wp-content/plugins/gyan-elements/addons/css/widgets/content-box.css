@@ -1,0 +1,17 @@
+.gyan-content-box {
+	position: relative;
+	z-index: 1;
+	transition: 0.3s;
+	overflow: hidden;
+}
+
+.gyan-content-box.gyan-content-box-move:hover, .gyan-content-box.gyan-content-box-zoom:hover {
+	z-index: 999;
+}
+
+.gyan-content-box .gyan-icon,
+.gyan-content-box .gyan-icon svg {
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}

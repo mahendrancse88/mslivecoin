@@ -1,0 +1,8 @@
+.gyan-counter-icon.gyan-icon,.gyan-counter-icon.gyan-icon svg {
+	line-height: 0;
+	display: inline-block;
+}
+
+.gyan-counter-icon.gyan-icon svg {
+	display: block;
+}

@@ -1,0 +1,107 @@
+.gyan-button {
+	transition: all 0.3s ease-in-out;
+}
+
+.gyan-button:active, .gyan-button:focus, .gyan-button {
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.gyan-search-form {
+	overflow: hidden;
+	text-align: center;
+}
+
+/*.gyan-search-box .gyan-input-field,*/
+.gyan-subs-input .gyan-input-field {
+	width: 300px;
+}
+
+/*.gyan-search-box .gyan-input-block,*/
+.gyan-subs-input .gyan-input-block {
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+/*.gyan-search-box .gyan-search-btn.gyan-input-block,*/
+.gyan-subs-input .gyan-subs-btn.gyan-input-block {
+	display: inline;
+	width: inherit;
+	margin-left: 0;
+}
+
+.gyan-contact-error,
+.gyan-contact-success,
+.gyan-subs-error,
+.gyan-subs-success {
+	display: none;
+	margin: 15px 0 0;
+	padding: 0;
+	color: #0a0;
+	text-transform: inherit;
+}
+
+.gyan-contact-error,
+.gyan-subs-error {
+	color: #f40;
+}
+
+.gyan-contact-process,
+.gyan-subs-process {
+	display: none;
+	margin: 15px 0 0;
+	color: #ccc;
+}
+
+.gyan-subs-btn .gyan-subs-btn-icon i,
+.gyan-subs-btn .gyan-subs-btn-icon svg {
+	display: inline-block;
+}
+
+.gyan-subs-btn .gyan-subs-btn-icon-valign i,
+.gyan-subs-btn .gyan-subs-btn-icon-valign svg {
+	vertical-align: middle;
+}
+
+.gyan-button.gyan-btn-fullwidth-yes {
+	width: 100%;
+}
+
+.gyan-subs-input input[type="text"],
+.gyan-subs-input input[type="email"],
+.gyan-subs-input input[type="tel"] {
+	border: 0;
+}
+
+.gyan-subs-form-align-left {
+	float: left;
+}
+
+.gyan-subs-form-align-right {
+	float: right;
+}
+
+.gyan-subs-form-align-center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gyan-subs-btn svg {
+	width: 1em;
+	height: 1em;
+	position: relative;
+}
+
+.gyan-subs-fields-align-left .gyan-input-field {
+	text-align: left;
+}
+
+.gyan-subs-fields-align-right .gyan-input-field {
+	text-align: right;
+}
+
+.gyan-subs-fields-align-center .gyan-input-field {
+	text-align: center;
+}

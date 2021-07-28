@@ -1,0 +1,97 @@
+ul.gyan-price-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.gyan-price-list .gyan-price-list-image {
+	max-width: 50%;
+	padding-right: 25px;
+	width: auto;
+}
+
+ul.gyan-price-list .gyan-price-list-image img {
+	width: 100%;
+}
+
+ul.gyan-price-list .gyan-price-list-price {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+ul.gyan-price-list .gyan-price-list-header {
+	font-size: 14px;
+	max-width: 100%;
+}
+
+ul.gyan-price-list .gyan-price-list-title {
+	color: #444444;
+}
+
+ul.gyan-price-list .gyan-price-list-description {
+	font-size: 12px;
+}
+
+ul.gyan-price-list .gyan-grid.gyan-has-image {
+	margin-left: 0;
+}
+
+ul.gyan-price-list .gyan-price-list-image, .gyan-price-list .gyan-price-list-separator {
+	display: none;
+}
+
+ul.gyan-price-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul.gyan-price-list li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+ul.gyan-price-list .gyan-price-list-item>div[onclick] {
+	cursor: pointer;
+}
+
+.gyan-price-list-text,.gyan-price-list-separator {
+	flex: 1;
+	min-width: 1px;
+}
+
+.gyan-price-list .gyan-flex-inline {
+	width: auto;
+}
+
+@media (min-width:768px) {
+	ul.gyan-price-list .gyan-price-list-header {
+		font-size: 19px;
+		font-weight: 600;
+	}
+
+	ul.gyan-price-list .gyan-price-list-title {
+		max-width: 80%;
+	}
+
+	ul.gyan-price-list .gyan-price-list-separator {
+		margin-left: 10px;
+		border-bottom-style: dotted;
+		border-bottom-width: 1px;
+		height: 0;
+		color: #cccccc;
+	}
+
+	ul.gyan-price-list .gyan-price-list-description {
+		font-size: 14px;
+		margin: 0;
+		color: #999999;
+	}
+
+	ul.gyan-price-list .gyan-price-list-description {
+		font-size: 14px;
+	}
+
+	ul.gyan-price-list .gyan-price-list-image, .gyan-price-list .gyan-price-list-separator {
+		display: inline-block;
+	}
+}

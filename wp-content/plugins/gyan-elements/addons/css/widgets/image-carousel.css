@@ -1,0 +1,46 @@
+.owl-nav .owl-next:before,
+.owl-nav .owl-prev:before {
+	content: '\f0d9';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-style: normal;
+	font-size: 22px;
+	margin-left: -3px;
+}
+
+.owl-nav .owl-next:before {
+	content: '\f0da';
+	margin-left: 3px;
+}
+
+.gyan-image-carousel {
+	direction: ltr;
+}
+
+.gyan-image-carousel {
+	overflow: hidden;
+}
+
+.gyan-image-carousel-g2c .gyan-image-item-inner img {
+	filter: gray;
+	-webkit-filter: grayscale(1);
+}
+
+.gyan-image-carousel-g2c .gyan-image-item-inner img:hover {
+	filter: none;
+	-webkit-filter: grayscale(0);
+}
+
+.gyan-image-item-inner {
+	overflow: hidden;
+}
+
+.gyan-image-item-inner a {
+	display: block;
+	text-align: center;
+}
+
+.gyan-image-item-inner,
+.gyan-image-item-inner a img {
+	transition: all 0.4s ease-in-out;
+}

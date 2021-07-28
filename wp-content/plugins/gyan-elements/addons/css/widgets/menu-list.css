@@ -1,0 +1,50 @@
+.gyan-menu-list {
+	display: block;
+}
+
+ul.gyan-menu-list-item {
+	margin: 0;
+	padding: 0;
+}
+
+ul.gyan-menu-list-item li {
+	display: block;
+	position: relative;
+	list-style: none;
+	margin: 0 0 9px 0;
+	padding: 0;
+}
+
+ul.gyan-menu-list-item li a {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 14px 22px;
+	border: 2px solid #e6e6e6;
+}
+
+ul.gyan-menu-list-item li a:before {
+	content: '\f054';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-right: 19px;
+	font-size: 14px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+	font-style: normal;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.gyan-menu-list-horizontal ul.gyan-menu-list-item li {
+	display: inline-block;
+	float: left;
+	margin-right: 9px;
+}
+
+.gyan-menu-list-horizontal ul.gyan-menu-list-item li a:before {
+	display: none;
+}

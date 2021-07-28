@@ -1,0 +1,39 @@
+.gyan-button {
+	transition: all 0.3s ease-in-out;
+}
+
+.gyan-button:active, .gyan-button:focus, .gyan-button {
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.gyan-modal-overlay {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 99999;
+}
+
+.gyan-modal-area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.gyan-modal-body {
+	overflow-y: auto;
+}
+
+.gyan-modal-content {
+	o verflow: hidden;
+}
+
+.gyan-modal-header {
+	margin-bottom: 0;
+}

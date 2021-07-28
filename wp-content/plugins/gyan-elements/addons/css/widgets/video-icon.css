@@ -1,0 +1,57 @@
+.gyan-video-icon-holder {
+	display: block;
+}
+
+.gyan-video-icon-holder .gyan-flex {
+	align-items: center;
+	flex-direction: column;
+}
+
+.gyan-video-icon-holder .gyan-flex.gyan-vi-title-above {
+	flex-direction: column-reverse;
+}
+
+.gyan-video-icon-holder .gyan-flex.gyan-vi-title-before {
+	flex-direction: row;
+	flex-direction: row-reverse;
+}
+
+.gyan-video-icon-holder .gyan-flex.gyan-vi-title-after {
+	flex-direction: row;
+}
+
+a.gyan-video-icon-element {
+	box-sizing: content-box;
+	position: relative;
+}
+
+a.gyan-video-icon-element:before {
+	display: none;
+}
+
+.gyan-vi-pulse-yes a.gyan-video-icon-element:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	display: block;
+	background: #fff;
+	border-radius: 100%;
+	animation: pulse-border 1500ms ease-out infinite;
+	transition: all 0.3s ease-in-out;
+	box-sizing: border-box;
+}
+
+@keyframes pulse-border {
+	0% {
+		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+		opacity: 0;
+	}
+}

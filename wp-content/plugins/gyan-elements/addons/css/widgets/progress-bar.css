@@ -1,0 +1,162 @@
+.gyan-progress-bar .gyan-pbar-wrap {
+	display: block;
+	-webkit-border-radius: unset;
+	-moz-border-radius: unset;
+	border-radius: unset;
+	-webkit-transition: width 1.5s;
+	-o-transition: width 1.5s;
+	-moz-transition: width 1.5s;
+	transition: width 1.5s;
+}
+
+.gyan-progress-bar .gyan-pbar-title-holder {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 10px;
+	line-height: 1;
+	white-space: nowrap;
+	-webkit-transition: inherit;
+	-o-transition: inherit;
+	-moz-transition: inherit;
+	transition: inherit;
+	position: relative;
+}
+
+.gyan-progress-bar .gyan-pbar-bg-wrap {
+	display: block;
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 8px;
+	-webkit-border-radius: unset;
+	-moz-border-radius: unset;
+	border-radius: unset;
+	-webkit-transition: inherit;
+	-o-transition: inherit;
+	-moz-transition: inherit;
+	transition: inherit;
+}
+
+.gyan-progress-bar .gyan-progress-bar-data {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: inherit;
+	-webkit-border-radius: inherit;
+	-moz-border-radius: inherit;
+	border-radius: inherit;
+	-webkit-transition: inherit;
+	-o-transition: inherit;
+	-moz-transition: inherit;
+	transition: inherit;
+}
+
+.gyan-progress-bar .gyan-pbar-title {
+	font-size: 16px;
+}
+
+.gyan-progress-bar .gyan-pbar-percentage {
+	position: relative;
+	z-index: 1;
+	margin-left: 5px;
+	padding-top: 1px;
+	line-height: inherit;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+.gyan-progress-bar .gyan-pbar-bg-holder {
+	-webkit-transition: inherit;
+	-o-transition: inherit;
+	-moz-transition: inherit;
+	transition: inherit;
+}
+
+.gyan-progress-bar .gyan-pbar-title-holder .gyan-pbar-title, .gyan-progress-bar .gyan-pbar-title-holder .gyan-pbar-percentage {
+	line-height: inherit;
+	font-weight: 500;
+}
+
+.gyan-progress-bar .gyan-pbar-p-number, .gyan-progress-bar .gyan-pbar-p-unit {
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	color: inherit;
+}
+
+.gyan-progress-bar.pbp-default .gyan-pbar-title-holder {
+	width: 0;
+}
+
+.gyan-progress-bar.pbp-default .gyan-pbar-percentage {
+	padding: 6px 5px;
+	position: absolute;
+	bottom: -16px;
+	z-index: 2;
+	right: -2px;
+}
+
+.gyan-progress-bar .gyan-pbar-percentage span {
+	padding: 0 2px;
+}
+
+.gyan-progress-bar .gyan-pbar-bg-wrap:before {
+	content: '';
+	display: block;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+
+.gyan-progress-bar .gyan-pbar-percentage:before {
+	position: absolute;
+	bottom: -9px;
+	right: 0;
+	display: inline-block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 9px 0 0;
+	border-color: transparent;
+	z-index: 0;
+	bottom: -10px;
+	border-width: 10px 10px 0 0;
+}
+
+.gyan-progress-bar-data span {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 12px;
+	height: 12px;
+	border: 3px solid red;
+	border-radius: 100%;
+	background: #fff;
+	display: block;
+	float: right;
+	margin-top: -6px;
+	margin-right: -2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

@@ -1,0 +1,104 @@
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-library-template-inner,
+.gyn-sites-dark-mode #gyn-sites-modal .inner,
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-library-template:not(.elementor-template-library-template-page) .elementor-template-library-template-footer,
+.gyn-sites-dark-mode #gyn-sites-modal .elementor-template-library-order-input {
+    background-color: #404349;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites__sync-wrap:hover span,
+.gyn-sites-dark-mode #gyn-sites-modal .gyn-sites-modal__header__close--normal:hover i,
+.gyn-sites-dark-mode #gyn-sites-modal .back-to-layout:hover i {
+    color: #ffffff;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-blocks-filter,
+.gyn-sites-dark-mode #gyn-sites-modal .elementor-template-library-order-input {
+	border-color: #7d7e82;
+}
+
+.gyn-sites-dark-mode .select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-color: #E0E1E3 transparent transparent transparent;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-content-wrap::-webkit-scrollbar,
+.gyn-sites-dark-mode #gyn-sites-modal .single-site-pages::-webkit-scrollbar,
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-blocks-filter {
+    background-color: #34383C;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-content-wrap::-webkit-scrollbar-thumb,
+.gyn-sites-dark-mode #gyn-sites-modal .single-site-pages::-webkit-scrollbar-thumb {
+    background-color: #7d7e82;
+}
+
+.gyn-sites-dark-mode .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+	border-color: transparent transparent #E0E1E3 transparent;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyn-sites-floating-notice-wrap {
+	background: #404349;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .notice-dismiss:before,
+.gyn-sites-dark-mode #gyn-sites-modal .back-to-layout i {
+	color: #E0E1E3;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .dialog-widget-content,
+.gyn-sites-dark-mode #gyn-sites-modal .elementor-template-library-menu-item,
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-sync-library-button span,
+.gyn-sites-dark-mode #gyn-sites-modal .gyn-sites-modal__header__item > i:not(:hover),
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-blocks-filter,
+.gyn-sites-dark-mode #gyn-sites-modal .elementor-template-library-order-input,
+.gyn-sites-dark-mode.gyan-sites__elementor-open #gyn-sites-modal .select2-container--default .select2-selection__rendered,
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-no-sites h3,
+.gyn-sites-dark-mode #gyn-sites-modal .back-to-layout,
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-tooltip .dashicons-editor-help {
+    color: #E0E1E3;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .dialog-widget-content,
+.gyn-sites-dark-mode #gyn-sites-modal .gyan-sites-no-sites .inner {
+	background-color: #34383C;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .dialog-header {
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal.dialog-type-lightbox .dialog-header {
+    background-color: #26292C;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyn-tooltip-wrap::before {
+	border: 8px solid #7d7e82;
+	border-bottom-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top: none;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyn-tooltip-wrap {
+	background: #7d7e82;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal #wp-filter-search-input {
+	border-color: #d5dadf;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .gyn-sites-modal__header__close--normal, {
+	border-left: 1px solid #a4afb7;
+}
+
+.gyn-sites-dark-mode #gyn-sites-modal .elementor-template-library-menu-item.elementor-active {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#26292C), to(#4C4F56));
+    background-image: -webkit-linear-gradient(top, #26292C, #4C4F56);
+    background-image: -o-linear-gradient(top, #26292C, #4C4F56);
+    background-image: linear-gradient(to bottom, #26292C, #4C4F56);
+}
+
+#gyn-sites-modal .back-to-layout:hover {
+    background-color: #111;
+    border-color: #fff;
+}
